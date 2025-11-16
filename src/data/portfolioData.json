@@ -84,11 +84,15 @@
   "badges": [
     {
       "name": "GitHub Arctic Code Vault Contributor",
-      "imageUrl": "https://github.githubassets.com/images/modules/profile/badge--acv-2020.png"
+      "imageUrl": "https://github.githubassets.com/images/modules/profile/badge--acv-2020.png",
+      "link": "https://github.githubassets.com/images/modules/profile/badge--acv-2020.png",
+      "skills": "React, TypeScript, JavaScript (ES6+), Node.js, HTML5 & CSS3"
     },
     {
       "name": "AWS Certified Cloud Practitioner",
-      "imageUrl": "https://images.credly.com/size/110x110/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png"
+      "imageUrl": "https://images.credly.com/size/110x110/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png",
+      "link": "https://images.credly.com/size/110x110/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png",
+      "skills": "UI/UX Design, Accessibility, Agile Methodologies"
     }
   ]
 }

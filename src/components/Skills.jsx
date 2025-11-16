@@ -3,8 +3,18 @@ import portfolioData from '../data/portfolioData.json';
 import '../styles/Skills.css';
 
 const Skills = () => {
-  const { skills } = portfolioData;
+  const { skills, badges } = portfolioData;
   const [searchTerm, setSearchTerm] = useState('');
+  const [expandedSkill, setExpandedSkill] = useState(null);
+
+  const toggleSkill = (skill) => {
+    setExpandedSkill(expandedSkill === skill ? null : skill);
+  };
+
+  // Function to get badges linked to a skill
+  const getBadgesForSkill = (skill) => {
+    return badges.filter((badge) => badge.skills?.includes(skill));
+  };
 
   return (
     <section id="skills" className="skills-section">
@@ -25,13 +35,45 @@ const Skills = () => {
           skill.toLowerCase().includes(searchTerm)
         );
         if (filteredSkills.length === 0) return null;
+
         return (
           <div key={category} className="skills-category">
             <h3>{category}</h3>
             <ul>
-              {filteredSkills.map((skill) => (
-                <li key={skill}>{skill}</li>
-              ))}
+              {filteredSkills.map((skill) => {
+                const skillBadges = getBadgesForSkill(skill);
+                const isExpanded = expandedSkill === skill;
+
+                return (
+                  <li key={skill} className="skill-item">
+                    <div
+                      className="skill-header"
+                      onClick={() => toggleSkill(skill)}
+                    >
+                      <span>{skill}</span>
+                      {/* Chevron arrow */}
+                      <span className={`chevron ${isExpanded ? 'expanded' : ''}`}>
+                        ▼
+                      </span>
+                    </div>
+                      {skillBadges.length > 0 && (
+                       <div><span className="badge-count">
+                        {skillBadges.length} source(s) of skill evidence
+                        </span> </div>
+                      )}
+                    
+                    {isExpanded && skillBadges.length > 0 && (
+                      <div className="skill-badges">
+                        {skillBadges.map((badge) => (
+                          <span key={badge.name} className="badge">
+                            {badge.name}
+                          </span>
+                        ))}
+                      </div>
+                    )}
+                  </li>
+                );
+              })}
             </ul>
           </div>
         );

@@ -52,3 +52,48 @@
     font-size: 1.2rem;
     font-weight: 500;
   }
+
+
+  .skill-item {
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+}
+
+
+
+.skill-badges {
+  margin-top: 0.25rem;
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.badge {
+  background-color: var(--accent-color);
+  color: #000;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.85rem;
+}
+
+.badge-count {
+  font-size: 0.85rem;
+  color: var(--font-color);
+}
+
+.skill-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 500;
+}
+
+.chevron {
+  display: inline-block;
+  margin-left: 10px;
+  transition: transform 0.3s ease;
+}
+
+.chevron.expanded {
+  transform: rotate(180deg);
+}

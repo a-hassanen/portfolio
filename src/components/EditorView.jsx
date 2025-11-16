@@ -261,7 +261,19 @@ const EditorView = ({ initialData }) => {
                     { name: 'name', placeholder: 'Badge Name' },
                     { name: 'imageUrl', placeholder: 'Image URL' },
                     { name: 'link', placeholder: 'Badge Link' },
-                ])}
+                    {
+                        name: 'skills',
+                        placeholder: 'Linked Skills (comma-separated)',
+                        customRender: (value, idx, handleChange) => (
+                        <input
+                            type="text"
+                            value={value.join(', ')}
+                            onChange={(e) => handleChange(idx, 'skills', e.target.value.split(',').map(s => s.trim()))}
+                            placeholder="e.g., React, Node.js"
+                        />
+                        )
+                    }
+                    ])}
 
                 {/* Skills */}
                 <div className="editor-section">
