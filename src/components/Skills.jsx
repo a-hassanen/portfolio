@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import portfolioData from '../data/portfolioData.json';
+import '../styles/Skills.css';
 
 const Skills = () => {
   const { skills } = portfolioData;

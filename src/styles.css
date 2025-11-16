@@ -104,8 +104,8 @@
     opacity: 1;
     transform: translateY(0);
   }
-  
-  .skills-search {
+
+  /* .skills-search {
     margin-bottom: 20px;
   }
 
@@ -132,7 +132,7 @@
     margin: 5px 0;
     padding: 10px;
     border-radius: 4px;
-  }
+  } */
 
   @media (max-width: 768px) {
     h1 { font-size: 2.5rem; }
