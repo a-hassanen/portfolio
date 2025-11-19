@@ -81,11 +81,11 @@ const App = () => {
 
     return (
         <>
-            <div className="video-overlay">
+            {/* <div className="video-overlay">
                 <video className="background-video" autoPlay muted loop playsInline>
                 <source src={vidUrl} type="video/mp4" />
                 </video>
-            </div>
+            </div> */}
             <div style={{ display: activePage === 'portfolio' ? 'block' : 'none' }}>
                 <PortfolioView data={portfolioData} />
             </div>
