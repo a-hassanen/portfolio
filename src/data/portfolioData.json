@@ -15,6 +15,9 @@
     "googleSkills": "https://www.google.com/profiles/skills/username",
     "coursera": "https://www.coursera.org/user/username"
   },
+  "files": {
+    "bgvidUrl1": "/assets/bg-vid-1.mp4"
+  },
   "aboutme":{
     "description": "Experienced Frontend Engineer with a demonstrated history of working in the information technology and services industry. Skilled in React, TypeScript, JavaScript (ES6+), Node.js, HTML5 & CSS3. Strong engineering professional with a Bachelor's degree focused in Computer Science from University of Technology.",
     "Languages": [

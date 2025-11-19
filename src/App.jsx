@@ -74,9 +74,18 @@ const App = () => {
             window.removeEventListener('hashchange', handleHashChange);
         };
     }, [activePage]);
+    // Resolve video path correctly in both DEV and GitHub Pages production
+    const vidUrl = portfolioData.files.bgvidUrl1
+        ? `${import.meta.env.BASE_URL}${portfolioData.files.bgvidUrl1.replace(/^\//, '')}`
+        : '';
 
     return (
         <>
+            <div className="video-overlay">
+                <video className="background-video" autoPlay muted loop playsInline>
+                <source src={vidUrl} type="video/mp4" />
+                </video>
+            </div>
             <div style={{ display: activePage === 'portfolio' ? 'block' : 'none' }}>
                 <PortfolioView data={portfolioData} />
             </div>

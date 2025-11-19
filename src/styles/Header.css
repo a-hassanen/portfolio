@@ -13,7 +13,9 @@ align-items: center;
 padding: 1rem 2rem;
 z-index: 100;
 transition: transform 0.3s ease-in-out;
+padding-top: var(--safe-area-inset-top, 0);
 }
+
 .header.hide {
 transform: translateY(-100%);
 }
@@ -21,9 +23,11 @@ transform: translateY(-100%);
 max-width: 1200px;
 margin: 0 auto;
 display: flex;
-align-items: center;
+align-items: end;
 width: 100%;
+justify-content: space-between;
 }
+
 /* Logo at top-left */
 .logo {
 font-size: 1.8rem;
@@ -32,6 +36,8 @@ color: #fff;
 cursor: pointer;
 flex: 0 0 auto;
 margin-left: -3.5rem;
+position: relative;
+top: 5px;
 }
 
 .logo-home{
