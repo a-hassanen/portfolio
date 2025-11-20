@@ -18,3 +18,75 @@
   list-style-position: inside;
   padding-left: 1rem;
 }
+
+.cert-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+  /* Default to 1 column (Mobile) */
+  grid-template-columns: 1fr;
+}
+
+/* On Tablets: 2 Columns */
+@media (min-width: 640px) {
+  .cert-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* On Desktops: 3 Columns */
+@media (min-width: 1024px) {
+  .cert-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+.cert-card {
+  position: relative;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  padding: 0.5rem;
+  text-decoration: none;
+  overflow: hidden; /* Keeps the accent strip inside */
+  transition: transform 0.2s ease;
+  
+  /* The Accent Strip */
+  border-left: 5px solid #6366f1; /* Indigo color */
+}
+
+.cert-card:hover {
+  transform: scale(1.02); /* Slight grow effect */
+  box-shadow: 0 5px 15px rgba(99, 102, 241, 0.15); /* Colored shadow */
+}
+
+.cert-title {
+  overflow-wrap: break-word; /* Standard way to wrap long text */
+  word-break: break-word;    /* Hard break for long words without spaces */
+  hyphens: auto;             /* Adds hyphens (-) if a word is cut */
+}
+
+.cert-provider {
+  font-size: 0.9rem;
+  color: #6366f1 !important;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.cert-footer {
+  display: inline-flex;
+  align-items: center;
+  padding: 5px;
+  border-radius: 50px;
+  font-size: 0.8rem;
+  color: #555;
+}
+
+.cert-icon {
+  margin-right: 6px;
+  font-size: 0.9em;
+}
+
+.cert-date{
+  /* margin-left: 8px; */
+  font-size: 0.85rem;
+  color: var(--font-color);
+}

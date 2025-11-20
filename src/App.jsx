@@ -86,6 +86,7 @@ const App = () => {
                 <source src={vidUrl} type="video/mp4" />
                 </video>
             </div> */}
+            
             <div style={{ display: activePage === 'portfolio' ? 'block' : 'none' }}>
                 <PortfolioView data={portfolioData} />
             </div>

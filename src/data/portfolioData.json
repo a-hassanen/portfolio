@@ -95,17 +95,32 @@
     }
   ],
   "certificates": {
-    "Cloud, DevOps, & IT Service Management": [],
+    "Cloud, DevOps, & IT Service Management": [ {
+        "name": "UI/UX Design Specialization",
+        "link": "https://www.coursera.org/specializations/ui-ux-design",
+        "provider": "Coursera",
+        "dateObtained": "2023-08-15"
+      }],
     "Atlassian Technical Expertise": [],
     "Cyber Security": [],
     "Web Development & Design": [
       {
-        "name": "Advanced React - Scrimba",
-        "link": "https://scrimba.com/learn/advancedreact"
+        "name": "Advanced React",
+        "link": "https://scrimba.com/learn/advancedreact",
+        "provider": "Scrimba",
+        "dateObtained": "2023-08-15"
       },
       {
-        "name": "UI/UX Design Specialization - Coursera",
-        "link": "https://www.coursera.org/specializations/ui-ux-design"
+        "name": "UI/UX Design Specialization",
+        "link": "https://www.coursera.org/specializations/ui-ux-design",
+        "provider": "Coursera",
+        "dateObtained": "2023-08-15"
+      }, 
+      {
+        "name": "UI/UX Design SpecializationSpecializationSpecialization",
+        "link": "https://www.coursera.org/specializations/ui-ux-design",
+        "provider": "Coursera",
+        "dateObtained": "2023-08-15"
       }
     ]
   },

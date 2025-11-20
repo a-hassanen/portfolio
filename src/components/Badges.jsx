@@ -31,7 +31,7 @@ const Badges = ({ items }) => {
                     >
                       <div className="badge-item card">
                         <img src={badge.imageUrl} alt={badge.name} />
-                        <span>{badge.name}</span>
+                        <span className="badgename"> {badge.name}</span>
                       </div>
                     </a>
                   </div>
