@@ -19,10 +19,23 @@ const Certificates = ({ items }) => {
                   <div className="cert-content">
                     <h3 className="cert-title">{cert.name}</h3>
                     <h4 className="cert-provider">{cert.provider}</h4>
-                    <div className="cert-footer">
-                      <FaCalendarAlt className="cert-icon" />
-                      <span className="cert-date">{cert.dateObtained}</span>
+                    <div className="cert-footer obtained-date">
+                        <div className="left-side">
+                          <FaCalendarAlt className="cert-icon" />
+                          <p className="left-side-datename">Date Obtained</p>
+                        </div>
+                        <span className="cert-date">{cert.dateObtained}</span>
                     </div>
+                    
+                    {cert.expiryDate && (
+                      <div className="cert-footer expiry-date">
+                        <div className="left-side">
+                          <FaCalendarAlt className="cert-icon" />
+                          <p className="left-side-datename"> Expiry Date</p>
+                        </div>
+                        <span className="cert-date">{cert.expiryDate}</span>
+                      </div>
+                    )}
                   </div>
                 </a>
               ))}

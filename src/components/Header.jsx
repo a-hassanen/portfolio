@@ -19,30 +19,30 @@ const Header = ({ name, showEditorLink }) => {
 
   useEffect(() => {
     const handleScroll = () => {
-  const scrollPosition = window.scrollY;
-  const header = document.querySelector('.header');
-  const offset = header ? header.offsetHeight : 0;
+      const scrollPosition = window.scrollY;
+      const header = document.querySelector('.header');
+      const offset = header ? header.offsetHeight : 0;
 
-  let currentSection = activeItem;
-  menuItems.forEach((item, index) => {
-    const section = document.getElementById(item.id);
-    if (section) {
-      const sectionTop = section.offsetTop - offset - 1; // small buffer
-      const sectionBottom = sectionTop + section.offsetHeight;
+      let currentSection = activeItem;
+      menuItems.forEach((item, index) => {
+        const section = document.getElementById(item.id);
+        if (section) {
+          const sectionTop = section.offsetTop - offset - 1; // small buffer
+          const sectionBottom = sectionTop + section.offsetHeight;
 
-      // Highlight if scroll is inside the section
-      if (scrollPosition >= sectionTop && scrollPosition < sectionBottom) {
-        currentSection = item.id;
-      }
+          // Highlight if scroll is inside the section
+          if (scrollPosition >= sectionTop && scrollPosition < sectionBottom) {
+            currentSection = item.id;
+          }
 
-      // Special case: last section
-      if (index === menuItems.length - 1 && scrollPosition + window.innerHeight >= document.body.scrollHeight) {
-        currentSection = item.id;
-      }
-    }
-  });
+          // Special case: last section
+          if (index === menuItems.length - 1 && scrollPosition + window.innerHeight >= document.body.scrollHeight) {
+            currentSection = item.id;
+          }
+        }
+      });
 
-  setActiveItem(currentSection);
+      setActiveItem(currentSection);
     };
 
 

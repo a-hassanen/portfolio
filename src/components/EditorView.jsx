@@ -450,7 +450,7 @@ const EditorView = ({ initialData }) => {
                 ])}
 
                 {/* Certificates */}
-                 <div className="editor-section">
+                 {/* <div className="editor-section">
                     <h2>Certificates</h2>
                     {Object.entries(data.certificates).map(([category, certs]) => (
                         <div key={category} className="editor-item">
@@ -464,13 +464,109 @@ const EditorView = ({ initialData }) => {
                                     <button onClick={() => handleRemoveCertInCategory(category, index)} className="remove-button" style={{top: '5px', right: '5px', height: '20px', width: '20px', fontSize: '12px'}}>X</button>
                                     <input name="name" value={cert.name} onChange={(e) => handleCertChange(category, index, e)} placeholder="Certificate Name" style={{marginBottom: '5px'}}/>
                                     <input name="link" value={cert.link} onChange={(e) => handleCertChange(category, index, e)} placeholder="Certificate Link" />
+                                    <input name="dateObtained" value={cert.dateObtained} onChange={(e) => handleCertChange(category, index, e)} placeholder="Certificate Date Obtained" />
+                                    <input name="expiryDate" value={cert.expiryDate} onChange={(e) => handleCertChange(category, index, e)} placeholder="Certificate Expiry Date" />
                                 </div>
                             ))}
                             <button className="button" onClick={() => handleAddCertInCategory(category)} style={{marginTop: '10px'}}>Add Certificate to {category}</button>
                         </div>
                     ))}
                     <button className="button" onClick={handleAddCertCategory}>Add Certificate Category</button>
+                </div> */}
+
+                {/* Certificates */}
+                <div className="editor-section">
+                <h2>Certificates</h2>
+
+                {Object.entries(data.certificates).map(([category, certs]) => (
+                    <div key={category} className="editor-item">
+                    
+                    <button
+                        onClick={() => handleRemoveCertCategory(category)}
+                        className="remove-button"
+                    >
+                        X
+                    </button>
+
+                    {/* Category Name */}
+                    <div className="editor-form-group">
+                        <label>Category Name</label>
+                        <input
+                        type="text"
+                        value={category}
+                        onChange={(e) =>
+                            handleCategoryNameChange(category, e, "certificates")
+                        }
+                        />
+                    </div>
+
+                    {/* 🔥 ONE HEADER ROW */}
+                    <div className="cert-grid header-row" id="cert-header-row">
+                        <span>Certificate Name</span>
+                        <span>Certificate Link</span>
+                        <span>Date Obtained</span>
+                        <span>Expiry Date</span>
+                        <span></span> {/* for delete button column */}
+                    </div>
+
+                    {/* Cert Rows */}
+                    {certs.map((cert, index) => (
+                        <div key={index} className="cert-grid cert-row" id="cert-data-row">
+                        <input
+                            name="name"
+                            value={cert.name}
+                            onChange={(e) => handleCertChange(category, index, e)}
+                            placeholder="Name"
+                        />
+
+                        <input
+                            name="link"
+                            value={cert.link}
+                            onChange={(e) => handleCertChange(category, index, e)}
+                            placeholder="Link"
+                        />
+
+                        <input
+                            name="dateObtained"
+                            value={cert.dateObtained}
+                            onChange={(e) => handleCertChange(category, index, e)}
+                            placeholder="Date Obtained"
+                        />
+
+                        <input
+                            name="expiryDate"
+                            value={cert.expiryDate}
+                            onChange={(e) => handleCertChange(category, index, e)}
+                            placeholder="Expiry Date"
+                        />
+
+                        {/* Remove Button */}
+                        <button
+                            onClick={() =>
+                            handleRemoveCertInCategory(category, index)
+                            }
+                            className="remove-button small"
+                        >
+                            X
+                        </button>
+                        </div>
+                    ))}
+
+                    <button
+                        className="button"
+                        onClick={() => handleAddCertInCategory(category)}
+                        style={{ marginTop: "10px" }}
+                    >
+                        Add Certificate to {category}
+                    </button>
+                    </div>
+                ))}
+
+                <button className="button" onClick={handleAddCertCategory}>
+                    Add Certificate Category
+                </button>
                 </div>
+
 
                 {/* Badges */}
                 <div className="editor-section">

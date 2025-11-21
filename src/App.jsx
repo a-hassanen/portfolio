@@ -5,25 +5,56 @@ import EditorView from './components/EditorView.jsx';
 import ResumeView from './components/ResumeView.jsx';
 import BackToTopButton from './components/BackToTopButton.jsx';
 
-// Helper to determine which "page" is active based on the hash
-const getPageViewFromHash = (hash) => {
-    if (hash === '#edit') return 'editor';
-    if (hash === '#resume-view') return 'resume';
-    return 'portfolio'; // Default page for any other hash or no hash
+// Helper to determine the active page based on the pathname (e.g., /edit)
+const getPageViewFromPath = () => {
+    const pathname = window.location.pathname;
+    
+    // Get the base path configured in vite.config.js (e.g., '/portfolio')
+    // We remove the trailing slash to ensure accurate path slicing.
+    const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
+    
+    // Slice the pathname to get the segment after the base (e.g., 'edit')
+    // If the path is just the base (e.g., /portfolio/), pathSegment will be ''
+    const pathSegment = pathname.replace(baseUrl, '').replace(/^\/|\/$/g, '');
+
+    // Map the path segment to the view
+    if (pathSegment === 'edit') return 'editor';
+    if (pathSegment === 'resume-view') return 'resume';
+    if (pathSegment === 'portfolio') return 'portfolio'; 
+
+    // Default view for base path (e.g., yoursite.com/portfolio/) or unknown path
+    return 'portfolio'; 
 };
 
 const App = () => {
+    // 1. Initialize state based on the current PATH
     const [activePage, setActivePage] = React.useState(() =>
-        getPageViewFromHash(window.location.hash)
+        getPageViewFromPath()
     );
+
+    // Function to navigate using the History API (for internal links)
+    const navigateTo = (pathSegment) => {
+        // Construct the full URL with the base path
+        const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
+        const newUrl = `${baseUrl}/${pathSegment}`;
+        
+        // Change the URL in the browser without forcing a full page reload
+        window.history.pushState(null, '', newUrl);
+        
+        // Manually update the active page state and scroll to the top
+        setActivePage(getPageViewFromPath());
+        window.scrollTo({ top: 0 });
+    };
+
 
     React.useEffect(() => {
 
+        // --- SCROLLING LOGIC (STILL USES HASH FOR SECTION JUMPS) ---
+        // This logic remains to support portfolio section links (e.g., /portfolio/#skills)
         const handleScrollToHash = () => {
             const hash = window.location.hash;
             const id = hash.substring(1);
 
-            // Only scroll inside portfolio page
             if (activePage !== 'portfolio') return;
 
             setTimeout(() => {
@@ -46,34 +77,47 @@ const App = () => {
                 }
             }, 20);
         };
-
-        const handleHashChange = (e) => {
-            // Stop browser default jump
-            if (e) e.preventDefault();
-
-            const hash = window.location.hash;
-            const targetPage = getPageViewFromHash(hash);
-
-            setActivePage(targetPage);
-
-            // Scroll after page is visible
-            if (targetPage === 'portfolio') {
-                handleScrollToHash();
-            } else {
-                window.scrollTo({ top: 0 });
-            }
+        
+        // --- PATH ROUTING LOGIC ---
+        
+        const handlePopState = () => {
+            // Fired when the user clicks the browser's back/forward buttons
+            setActivePage(getPageViewFromPath());
         };
 
-        // Add custom listener
-        window.addEventListener('hashchange', handleHashChange);
+        const handleInternalLinkClick = (e) => {
+            const target = e.target.closest('a');
+            if (!target) return;
 
-        // Run on initial load
-        handleHashChange();
+            const href = target.getAttribute('href');
+            
+            // Check if it's a link intended for our custom path routing 
+            // We look for links starting with /edit or /resume-view, but NOT # 
+            if (href && (href.startsWith('/edit') || href.startsWith('/resume-view')) && !href.includes('#')) {
+                e.preventDefault(); // Stop the default page load
+                // The navigateTo function handles the history update and state change
+                navigateTo(href.replace(/^\//, '')); 
+            }
+            
+            // Allow default hash jumps (#section) to pass through for handleScrollToHash
+        };
+        
+        // We removed the 'hashchange' listener
 
+        // Add listeners for path changes
+        window.addEventListener('popstate', handlePopState);
+        document.addEventListener('click', handleInternalLinkClick);
+
+        // Run scroll on initial load (if a hash is present)
+        handleScrollToHash();
+
+        // Cleanup function
         return () => {
-            window.removeEventListener('hashchange', handleHashChange);
+            window.removeEventListener('popstate', handlePopState);
+            document.removeEventListener('click', handleInternalLinkClick);
         };
     }, [activePage]);
+    
     // Resolve video path correctly in both DEV and GitHub Pages production
     const vidUrl = portfolioData.files.bgvidUrl1
         ? `${import.meta.env.BASE_URL}${portfolioData.files.bgvidUrl1.replace(/^\//, '')}`

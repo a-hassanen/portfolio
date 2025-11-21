@@ -48,6 +48,9 @@
   text-decoration: none;
   overflow: hidden; /* Keeps the accent strip inside */
   transition: transform 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
   
   /* The Accent Strip */
   border-left: 5px solid #6366f1; /* Indigo color */
@@ -58,6 +61,11 @@
   box-shadow: 0 5px 15px rgba(99, 102, 241, 0.15); /* Colored shadow */
 }
 
+.cert-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
 .cert-title {
   overflow-wrap: break-word; /* Standard way to wrap long text */
   word-break: break-word;    /* Hard break for long words without spaces */
@@ -78,6 +86,8 @@
   border-radius: 50px;
   font-size: 0.8rem;
   color: #555;
+  justify-content: space-between;
+  margin-top: auto;
 }
 
 .cert-icon {
@@ -90,3 +100,14 @@
   font-size: 0.85rem;
   color: var(--font-color);
 }
+
+.left-side {
+  display: flex;
+  align-items: center;
+}
+
+.left-side-datename{
+  color: var(--font-color);
+  padding-right: 10px;
+  font-weight: 600;
+}    
