@@ -31,6 +31,9 @@
     scroll-behavior: smooth;
     max-width: 100%;
     overflow-x: hidden;
+
+    margin: 0;
+    padding: 0;
   }
 
   .body{
@@ -182,44 +185,31 @@
   /* MOBILE SCREEN ADJUSTMENTS (Tablets and Phones) */
   @media (max-width: 768px) {
 
-    /* A. Header & Navigation */
-    .header-container {
-      flex-direction: column; /* Stack logo and nav */
-      padding: 1rem;
-    }
-    
-    .nav-links {
-      width: 100%;
-      overflow-x: auto; /* Enable horizontal scrolling for buttons */
-      display: flex;
-      justify-content: flex-start;
-      padding-bottom: 10px; /* Space for scrollbar interaction */
-      gap: 10px;
+    .body,body.light, body.dark {
+      padding-top: 40px;
     }
 
-    /* B. Main Layout & Padding */
+    /* A. Main Layout & Padding */
     .app-container {
       padding: 15px; /* Add breathing room on small screens */
-      width: 100%;
-      box-sizing: border-box;
     }
 
-    /* C. Force Grids to become Single Columns */
+    /* B. Force Grids to become Single Columns */
     .cert-grid, 
     .contact-grid, 
     .badges-grid,
     .skills-category div { 
       display: grid !important;
-      grid-template-columns: 1fr !important; /* Stack items vertically */
+      grid-template-columns: 1fr !important; 
       gap: 15px;
     }
 
-    /* D. Adjust Cards */
+    /* C. Adjust Cards */
     .card {
       padding: 15px; /* Smaller padding inside cards to save space */
     }
 
-    /* E. Hero Section */
+    /* D. Hero Section */
     .hero {
       text-align: center; /* Center align intro text on mobile */
     }
@@ -230,12 +220,8 @@
       margin: 0 auto;
     }
 
-    /* F. Resume & Tables */
+    /* E. Resume & Tables */
     .details-list {
       font-size: 0.9rem; /* Slightly smaller text for lists */
-    }
-    
-    .resume-embed {
-      height: 400px; /* Reduce PDF viewer height on mobile */
     }
   }

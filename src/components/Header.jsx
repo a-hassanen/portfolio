@@ -1,106 +1,86 @@
-import React, { useState, useEffect } from 'react';
-import '../styles/Header.css';
+import React, { useRef } from "react";
+import { FaBars, FaTimes } from "react-icons/fa";
+import "../styles/Header.css";
+import useScrollHeader from "../hooks/useScrollHeader";
+import useMobileMenu from "../hooks/useMobileMenu";
+import useDarkMode from "../hooks/useDarkMode";
 
 const Header = ({ name, showEditorLink }) => {
-  const [activeItem, setActiveItem] = useState('aboutme');
-  const [isDarkMode, setIsDarkMode] = useState(true);
+  const { isHeaderHidden, activeItem, isMobile } = useScrollHeader();
+  const { isMenuOpen, toggleMenu, closeMenu } = useMobileMenu(isMobile);
+  const { isDarkMode, toggleDarkMode } = useDarkMode();
+
+  const navRef = useRef(null);
 
   const menuItems = [
-    { id: 'aboutme', label: 'About Me' },
-    { id: 'experience', label: 'Experience' },
-    { id: 'projects', label: 'Projects' },
-    { id: 'resume', label: 'Resume' },
-    { id: 'certificates', label: 'Certificates' },
-    { id: 'badges', label: 'Badges' },
-    { id: 'education', label: 'Education' },
-    { id: 'skills', label: 'Skills' },
-    { id: 'contact', label: 'Contact' }
+    { id: "aboutme", label: "About Me" },
+    { id: "experience", label: "Experience" },
+    { id: "projects", label: "Projects" },
+    { id: "resume", label: "Resume" },
+    { id: "certificates", label: "Certificates" },
+    { id: "badges", label: "Badges" },
+    { id: "education", label: "Education" },
+    { id: "skills", label: "Skills" },
+    { id: "contact", label: "Contact" }
   ];
 
-  useEffect(() => {
-    const handleScroll = () => {
-      const scrollPosition = window.scrollY;
-      const header = document.querySelector('.header');
-      const offset = header ? header.offsetHeight : 0;
-
-      let currentSection = activeItem;
-      menuItems.forEach((item, index) => {
-        const section = document.getElementById(item.id);
-        if (section) {
-          const sectionTop = section.offsetTop - offset - 1; // small buffer
-          const sectionBottom = sectionTop + section.offsetHeight;
-
-          // Highlight if scroll is inside the section
-          if (scrollPosition >= sectionTop && scrollPosition < sectionBottom) {
-            currentSection = item.id;
-          }
-
-          // Special case: last section
-          if (index === menuItems.length - 1 && scrollPosition + window.innerHeight >= document.body.scrollHeight) {
-            currentSection = item.id;
-          }
-        }
-      });
-
-      setActiveItem(currentSection);
-    };
-
-
-    window.addEventListener('scroll', handleScroll);
-    handleScroll(); // initialize on load
-
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, [menuItems]);
+  const base = import.meta.env.BASE_URL || "/";
 
   const handleNavClick = (e, id) => {
     e.preventDefault();
-    setActiveItem(id);
+    closeMenu();
+
     const element = document.getElementById(id);
     if (element) {
-      const header = document.querySelector('.header');
-      const offset = header ? header.offsetHeight : 0;
+      const headerHeight = document.querySelector(".header")?.offsetHeight || 0;
       window.scrollTo({
-        top: element.offsetTop - offset,
-        behavior: 'smooth'
+        top: element.offsetTop - headerHeight,
+        behavior: "smooth"
       });
     }
   };
 
-  // --- Dark mode effect ---
-  useEffect(() => {
-    document.body.className = isDarkMode ? 'dark' : 'light';
-  }, [isDarkMode]);
-  const base = import.meta.env.BASE_URL; 
-
   return (
-    <header className={`header ${isDarkMode ? 'dark' : ''}`}>
+    <header className={`header ${isHeaderHidden ? "hide" : ""} ${isDarkMode ? "dark" : ""}`}>
       <div className="header-container">
-        <div className="logo"><a className="logo-home" href={base}>{name}</a></div>
-        <nav className="nav-links">
+        <div className="logo">
+          <a className="logo-home" href={base}>{name}</a>
+        </div>
+
+        <button
+          className="hamburger-menu-icon"
+          onClick={toggleMenu}
+          aria-label="Toggle menu"
+        >
+          {isMenuOpen ? <FaTimes /> : <FaBars />}
+        </button>
+
+        <nav ref={navRef} className={`nav-links ${isMenuOpen ? "active" : ""}`}>
           {menuItems.map(item => (
             <button
               key={item.id}
-              onClick={(e) => handleNavClick(e, item.id)}
-              className={`nav-button ${activeItem === item.id ? 'active' : ''}`}
+              onClick={e => handleNavClick(e, item.id)}
+              className={`nav-button ${activeItem === item.id ? "active" : ""}`}
             >
               {item.label}
             </button>
           ))}
+
           {showEditorLink && (
             <button
-              onClick={(e) => handleNavClick(e, 'edit')}
+              onClick={e => handleNavClick(e, "edit")}
               className="nav-button editor"
             >
               Editor
             </button>
           )}
-          {/* Dark Mode Toggle */}
+
           <button
-            onClick={() => setIsDarkMode(!isDarkMode)}
+            onClick={toggleDarkMode}
             className="nav-button dark-toggle"
           >
             {isDarkMode ? "🌞" : "🌙"}
-        </button>
+          </button>
         </nav>
       </div>
     </header>

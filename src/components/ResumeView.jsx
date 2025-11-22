@@ -43,7 +43,8 @@ const ResumeView = () => {
                 width="100%"
                 height="800px"
                 title="Resume"
-                frameBorder="0"
+                id="resume-iframe"
+                className="resume-iframe"
               />
             </div>
           )}

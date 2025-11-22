@@ -102,7 +102,6 @@ const App = () => {
             // Allow default hash jumps (#section) to pass through for handleScrollToHash
         };
         
-        // We removed the 'hashchange' listener
 
         // Add listeners for path changes
         window.addEventListener('popstate', handlePopState);

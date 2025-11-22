@@ -50,3 +50,12 @@
         justify-content: center;
     }
 }
+
+/* -----------------------------------------
+   RESPONSIVE STYLES (Mobile)
+   ----------------------------------------- */
+@media (max-width: 768px) {
+    .resume-iframe {
+        height: 500px;
+    }
+}
