@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaArrowLeft } from "react-icons/fa";
+// import { FaArrowLeft } from "react-icons/fa";
 import Header from './Header.jsx';
 import Footer from './Footer.jsx';
 import '../styles/ResumeView.css';
