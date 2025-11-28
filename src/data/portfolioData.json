@@ -1,19 +1,19 @@
 {
   "personalInfo": {
     "name": "Ahmed Hassanen",
-    "title": "Senior Frontend Engineer",
+    "title": "SENIOR PLATFORM ENGINEER | DEVOPS & AUTOMATION ENGINEER | ATLASSIAN SOLUTIONS EXPERT",
     "profileImage": "/assets/profile.png",
-    "bio": "I'm a passionate developer with a knack for creating beautiful, functional, and accessible web experiences. I love tackling complex problems and turning ideas into reality. This portfolio is a showcase of my journey in tech.",
-    "email": "alex.doe@example.com",
-    "github": "https://github.com/example",
-    "linkedin": "https://linkedin.com/in/example",
-    "whatsapp1": "1234567890",
-    "whatsapp2": "0987654321",
-    "phone1": "1234567890",
-    "phone2": "0987654321",
-    "credly": "https://www.credly.com/users/username",
-    "googleSkills": "https://www.google.com/profiles/skills/username",
-    "coursera": "https://www.coursera.org/user/username"
+    "bio": "Senior Platform & DevOps Engineer with 7+ years of hands-on experience in designing, scaling, and automating complex enterprise platforms.",
+    "email": "AhmedHssanen@hotmail.com",
+    "github": "https://github.com/a-hassanen",
+    "linkedin": "https://linkedin.com/in/ahmed-hassanen",
+    "whatsapp1": "+971 50 940 6243",
+    "whatsapp2": "+966 53 780 7734",
+    "phone1": "+971 50 940 6243",
+    "phone2": "+966 53 780 7734",
+    "credly": "https://www.credly.com/users/ahmed-hassanen",
+    "googleSkills": "https://www.skills.google/public_profiles/17b0d35d-03a5-410e-8609-530db49f929c",
+    "coursera": "https://www.coursera.org/user/89dca36f46ad86926efe94b32ef8ada5"
   },
   "files": {
     "bgvidUrl1": "/assets/bg-vid-1.mp4",
@@ -22,15 +22,15 @@
     "wordUrl": "/assets/resumes/Ahmed-Hassanen.docx"
   },
   "aboutme":{
-    "description": "Experienced Frontend Engineer with a demonstrated history of working in the information technology and services industry. Skilled in React, TypeScript, JavaScript (ES6+), Node.js, HTML5 & CSS3. Strong engineering professional with a Bachelor's degree focused in Computer Science from University of Technology.",
+    "description": "Senior Platform & DevOps Engineer with 7+ years of hands-on experience in designing, scaling, and automating complex enterprise platforms. Specialized in Infrastructure-as-Code (IaC) with Terraform, CI/CD automation pipelines with GitLab & Jenkins, and multi-cloud management with AWS, GCP, Azure, and EKS. Proven leader in cloud migration, designing and implementing system architecture & integrations, that provide high-availability resilient environments within ITIL frameworks & Agile methodologies to achieve operational excellence. My core expertise includes PMO project management & delivery, end-to-end management and administration of Atlassian Suite Data Center & Cloud. Full-lifecycle custom solution development, including the training of AI/ML services and Atlassian Rovo.",
     "Languages": [
       {
         "name": "English",
-        "proficiency": "Native or Bilingual Proficiency"
+        "proficiency": "Fluent/Native"
       },
       {
         "name": "Arabic",
-        "proficiency": "Native or Bilingual Proficiency"
+        "proficiency": "Native"
       }
     ],
     "Availability": "Immediate",
@@ -40,117 +40,657 @@
   },
   "experience": [
     {
-      "company": "Tech Solutions Inc.",
-      "title": "Senior Frontend Engineer",
-      "period": "Jan 2020 - Present",
-      "description": "Led the development of a new user-facing analytics dashboard using React and D3.js. Mentored junior developers and improved code quality across the team by implementing a new style guide."
+      "company": "Tawal",
+      "title": "Senior Platform Engineer (Atlassian)",
+      "period": "October 2024 - Present",
+      "description": "Drove a 20% improvement in operations performance and efficiency by designing and deploying large-scale custom solutions within the Atlassian Suite products (Jira & Confluence). Achieved 99.9% uptime for core Atlassian environments. Implemented robust CI/CD pipelines (GitLab/Jenkins) for continuous deployment of infrastructure and application code. Led the migration of critical business systems to a multi-cloud (AWS, GCP) environment, reducing latency and improving resilience."
     },
     {
-      "company": "Web Innovators",
-      "title": "Frontend Developer",
-      "period": "Jun 2017 - Dec 2019",
-      "description": "Developed and maintained responsive websites for various clients using HTML, CSS, and JavaScript. Collaborated with designers to ensure pixel-perfect implementation of UIs."
+      "company": "ServiceRocket",
+      "title": "Senior Platform Engineer",
+      "period": "October 2021 - September 2024",
+      "description": "Engineered and managed Infrastructure-as-Code (IaC) using Terraform across AWS, GCP, and Azure for global clients, achieving 40% reduction in deployment time. Led multiple cloud adoption projects, including lift-and-shift and refactoring applications into containerized solutions (EKS/AKS). Developed automated security and compliance standards (patch management, audit logging) integrated into CI/CD. Served as the technical lead for complex Atlassian Data Center installations and upgrades."
     }
   ],
   "education": [
     {
-      "institution": "University of Technology",
-      "degree": "Bachelor of Science in Computer Science",
-      "period": "Sep 2013 - May 2017",
-      "description": "Graduated with honors. Focused on software engineering and web development principles. Participated in the annual coding competition."
+      "institution": "Limkokwing University of Creative Technology, Selangor, Malaysia",
+      "degree": "Bachelor of Science - BS, Information & Communication Technology",
+      "period": "",
+      "description": "Graduated with honors."
     }
   ],
   "skills": {
-    "Programming Languages": [
-      "React",
-      "TypeScript",
-      "JavaScript (ES6+)",
-      "Node.js",
-      "HTML5 & CSS3"
+    "Programming Languages & Scripting": [
+      "Shell Scripting",
+      "Linux",
+      "Python",
+      "Java",
+      "GoLang",
+      "HTML",
+      "CSS",
+      "JavaScript"
     ],
-    "Tools & Technologies": [
-      "Webpack",
-      "Vite",
-      "Git & GitHub",
-      "Jest & RTL"
+    "Cloud Platforms": [
+      "Amazon Web Services (AWS)",
+      "Cloud Computing",
+      "GCP (Google Cloud Platform)",
+      "Azure (Microsoft Azure)",
+      "Multi-Cloud Management",
+      "Cloud Migration"
     ],
-    "Industry Knowledge": [
-      "UI/UX Design",
-      "Accessibility",
-      "Agile Methodologies"
+    "Infrastructure as Code (IaC)": [
+      "Terraform",
+      "CloudFormation"
     ],
-    "Interpersonal Skills": [
+    "Containerization & Orchestration": [
+      "Kubernetes (EKS, AKS)",
+      "Docker",
+      "Containerization"
+    ],
+    "DevOps & CI/CD Tools": [
+      "DevOps",
+      "CI/CD",
+      "GitLab CI/CD",
+      "Jenkins",
+      "Jira (Admin/Ops)",
+      "Confluence (Admin/Ops)",
+      "Atlassian Suite (Data Center & Cloud)",
+      "Atlassian Rovo",
+      "Continuous Delivery",
+      "System Administration",
+      "Advanced JQL",
+      "Agile Software Development",
+      "Change Management"
+    ],
+    "Methodologies & Management": [
+      "ITIL Frameworks",
+      "IT Service Management (ITSM)",
+      "Agile Methodologies",
+      "PMO Project Management",
+      "Incident Management",
+      "Customer Service",
+      "Problem Solving",
+      "Strategic Planning"
+    ],
+    "Web Development & Design": [
+      "Web Development",
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "Soft Skills": [
       "Team Leadership",
+      "Leadership",
       "Mentoring",
-      "Communication"
+      "Communication",
+      "Teamwork"
     ]
   },
   "projects": [
     {
-      "name": "Project Alpha",
-      "description": "A full-stack web application for project management, built with React and Node.js.",
-      "link": "https://github.com/example/project-alpha"
+      "name": "",
+      "description": "",
+      "link": ""
     },
     {
-      "name": "Portfolio Website",
-      "description": "This very portfolio, built to be easily configurable and deployable.",
-      "link": "https://github.com/example/portfolio"
+      "name": "",
+      "description": "",
+      "link": ""
     }
   ],
   "certificates": {
-    "Cloud, DevOps, & IT Service Management": [ {
-        "name": "UI/UX Design Specialization",
-        "link": "https://www.coursera.org/specializations/ui-ux-design",
-        "provider": "Coursera",
-        "dateObtained": "2023-08-15",
-        "expiryDate": "2025-08-15"
-      }],
-    "Atlassian Technical Expertise": [],
-    "Cyber Security": [],
-    "Web Development & Design": [
+    "Cloud, DevOps, & IT Service Management": [
       {
-        "name": "Advanced React",
-        "link": "https://scrimba.com/learn/advancedreact",
-        "provider": "Scrimba",
-        "dateObtained": "2023-08-15",
+        "name": "Google Cloud DevOps Engineer, SRE Certificate",
+        "link": "",
+        "provider": "Google",
+        "dateObtained": "October 2025",
         "expiryDate": ""
       },
       {
-        "name": "UI/UX Design Specialization",
-        "link": "https://www.coursera.org/specializations/ui-ux-design",
-        "provider": "Coursera",
-        "dateObtained": "2023-08-15",
+        "name": "Google IT Support Certificate",
+        "link": "",
+        "provider": "Google",
+        "dateObtained": "October 2025",
         "expiryDate": ""
-      }, 
+      },
       {
-        "name": "UI/UX Design SpecializationSpecializationSpecialization",
-        "link": "https://www.coursera.org/specializations/ui-ux-design",
+        "name": "Google Cloud Computing Foundations Certificate",
+        "link": "",
+        "provider": "Google",
+        "dateObtained": "October 2025",
+        "expiryDate": ""
+      },
+      {
+        "name": "ITIL® 4 Specialist Create, Deliver and Support",
+        "link": "",
+        "provider": "Axelos",
+        "dateObtained": "September 2022",
+        "expiryDate": ""
+      },
+      {
+        "name": "ITIL® Foundation Certificate in IT Service Management",
+        "link": "",
+        "provider": "Axelos",
+        "dateObtained": "November 2020",
+        "expiryDate": ""
+      },
+      {
+        "name": "AWS Certified Cloud Practitioner",
+        "link": "",
+        "provider": "Amazon",
+        "dateObtained": "May 2021",
+        "expiryDate": ""
+      },
+      {
+        "name": "Essential Git and Branching",
+        "link": "",
+        "provider": "Atlassian",
+        "dateObtained": "October 2020",
+        "expiryDate": ""
+      },
+      {
+        "name": "Introduction to Terraform for AWS",
+        "link": "",
+        "provider": "LinkedIn",
+        "dateObtained": "June 2023",
+        "expiryDate": ""
+      },
+      {
+        "name": "Learning Kubernetes",
+        "link": "",
+        "provider": "LinkedIn",
+        "dateObtained": "May 2023",
+        "expiryDate": ""
+      }
+    ],
+    "Atlassian Technical Expertise": [
+      {
+        "name": "Atlassian Cloud Organization Admin",
+        "link": "",
+        "provider": "Atlassian",
+        "dateObtained": "September 2023",
+        "expiryDate": ""
+      },
+      {
+        "name": "Atlassian Certified Expert (ACE)",
+        "link": "",
+        "provider": "Atlassian",
+        "dateObtained": "January 2023",
+        "expiryDate": ""
+      },
+      {
+        "name": "Managing Jira Projects for Cloud (ACP-620)",
+        "link": "",
+        "provider": "Atlassian",
+        "dateObtained": "January 2023",
+        "expiryDate": ""
+      },
+      {
+        "name": "Confluence Space Administration (APB-220)",
+        "link": "",
+        "provider": "Atlassian",
+        "dateObtained": "May 2022",
+        "expiryDate": ""
+      },
+      {
+        "name": "Atlassian Certified Jira Administrator for Cloud (ACP-120)",
+        "link": "",
+        "provider": "Atlassian",
+        "dateObtained": "February 2022",
+        "expiryDate": ""
+      },
+      {
+        "name": "Atlassian Certified Jira Administrator for Data Center & Server (ACP-100)",
+        "link": "",
+        "provider": "Atlassian",
+        "dateObtained": "May 2020",
+        "expiryDate": ""
+      },
+      {
+        "name": "Jira Service Management Administrator Certification",
+        "link": "",
+        "provider": "Atlassian",
+        "dateObtained": "March 2021",
+        "expiryDate": ""
+      },
+      {
+        "name": "Advanced Technical Troubleshooting in Jira",
+        "link": "",
+        "provider": "Atlassian",
+        "dateObtained": "January 2021",
+        "expiryDate": ""
+      },
+      {
+        "name": "ITSM: Customer Service",
+        "link": "",
+        "provider": "Atlassian",
+        "dateObtained": "April 2021",
+        "expiryDate": ""
+      },
+      {
+        "name": "ITSM: Asset Management",
+        "link": "",
+        "provider": "Atlassian",
+        "dateObtained": "April 2021",
+        "expiryDate": ""
+      },
+      {
+        "name": "Configuring and Troubleshooting Permissions in Jira",
+        "link": "",
+        "provider": "Atlassian",
+        "dateObtained": "May 2020",
+        "expiryDate": ""
+      },
+      {
+        "name": "Customizing Jira Workflows",
+        "link": "",
+        "provider": "Atlassian",
+        "dateObtained": "April 2020",
+        "expiryDate": ""
+      },
+      {
+        "name": "Jira Advanced Filter Usage",
+        "link": "",
+        "provider": "Atlassian",
+        "dateObtained": "August 2020",
+        "expiryDate": ""
+      },
+      {
+        "name": "Jira Service Management: Fundamentals",
+        "link": "",
+        "provider": "Atlassian",
+        "dateObtained": "March 2021",
+        "expiryDate": ""
+      },
+      {
+        "name": "Confluence Cloud Essentials",
+        "link": "",
+        "provider": "Atlassian",
+        "dateObtained": "August 2020",
+        "expiryDate": ""
+      },
+      {
+        "name": "Jira Service Management: Advanced Features",
+        "link": "",
+        "provider": "Atlassian",
+        "dateObtained": "March 2021",
+        "expiryDate": ""
+      },
+      {
+        "name": "Getting Started with Jira Service Management",
+        "link": "",
+        "provider": "Atlassian",
+        "dateObtained": "March 2021",
+        "expiryDate": ""
+      },
+      {
+        "name": "Jira Reporting and Dashboards",
+        "link": "",
+        "provider": "Atlassian",
+        "dateObtained": "October 2020",
+        "expiryDate": ""
+      },
+      {
+        "name": "Jira Boards for Scrum and Kanban",
+        "link": "",
+        "provider": "Atlassian",
+        "dateObtained": "October 2020",
+        "expiryDate": ""
+      },
+      {
+        "name": "Jira Automation",
+        "link": "",
+        "provider": "Atlassian",
+        "dateObtained": "October 2020",
+        "expiryDate": ""
+      },
+      {
+        "name": "Scaling Jira for the Enterprise (Data Center)",
+        "link": "",
+        "provider": "Atlassian",
+        "dateObtained": "October 2020",
+        "expiryDate": ""
+      },
+      {
+        "name": "Jira Administration for Cloud",
+        "link": "",
+        "provider": "Atlassian",
+        "dateObtained": "October 2020",
+        "expiryDate": ""
+      },
+      {
+        "name": "Confluence Content and Collaboration",
+        "link": "",
+        "provider": "Atlassian",
+        "dateObtained": "October 2020",
+        "expiryDate": ""
+      },
+      {
+        "name": "Confluence Team Space Administration",
+        "link": "",
+        "provider": "Atlassian",
+        "dateObtained": "October 2020",
+        "expiryDate": ""
+      },
+      {
+        "name": "Managing Service Desks in Jira Service Management",
+        "link": "",
+        "provider": "Atlassian",
+        "dateObtained": "March 2021",
+        "expiryDate": ""
+      },
+      {
+        "name": "Jira Service Management: Implementing Best Practices",
+        "link": "",
+        "provider": "Atlassian",
+        "dateObtained": "March 2021",
+        "expiryDate": ""
+      }
+    ],
+    "Cyber Security": [
+      {
+        "name": "Security & Compliance: Governance Risk & Compliance (GRC)",
+        "link": "",
+        "provider": "Atlassian",
+        "dateObtained": "December 2020",
+        "expiryDate": ""
+      },
+      {
+        "name": "Data Security and Privacy",
+        "link": "",
+        "provider": "EverFi",
+        "dateObtained": "October 2021",
+        "expiryDate": ""
+      }
+    ],
+    "Web Development & Design": [
+      {
+        "name": "Introduction to HTML, CSS, and JavaScript",
+        "link": "",
         "provider": "Coursera",
-        "dateObtained": "2023-08-15",
+        "dateObtained": "January 2020",
+        "expiryDate": ""
+      }
+    ],
+    "Project & Team Management": [
+      {
+        "name": "Strategic Planning Foundations",
+        "link": "",
+        "provider": "LinkedIn",
+        "dateObtained": "March 2023",
+        "expiryDate": ""
+      },
+      {
+        "name": "Agile Software Development: Kanban",
+        "link": "",
+        "provider": "LinkedIn",
+        "dateObtained": "March 2023",
+        "expiryDate": ""
+      },
+      {
+        "name": "Change Management",
+        "link": "",
+        "provider": "LinkedIn",
+        "dateObtained": "February 2023",
+        "expiryDate": ""
+      }
+    ],
+    "Programming & Data": [
+      {
+        "name": "Python Essential Training",
+        "link": "",
+        "provider": "LinkedIn",
+        "dateObtained": "December 2022",
+        "expiryDate": ""
+      },
+      {
+        "name": "SQL Essential Training",
+        "link": "",
+        "provider": "LinkedIn",
+        "dateObtained": "December 2022",
         "expiryDate": ""
       }
     ]
   },
   "badges": {
-    "Cloud, DevOps, & IT Service Management": [{
-        "name": "GitHub Arctic Code Vault Contributor",
-        "imageUrl": "https://images.credly.com/size/110x110/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png",
-        "link": "https://images.credly.com/size/110x110/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png",
-        "skills": "React, TypeScript, JavaScript (ES6+), Node.js, HTML5 & CSS3"
-      }],
-    "Atlassian Technical Expertise": [],
-    "Cyber Security": [],
-    "Web Development & Design": [{
-        "name": "GitHub Contributor",
-        "imageUrl": "https://images.credly.com/size/110x110/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png",
-        "link": "https://images.credly.com/size/110x110/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png",
-        "skills": "React, TypeScript, JavaScript (ES6+), Node.js, HTML5 & CSS3"
+    "Cloud, DevOps, & IT Service Management": [
+      {
+        "name": "Google Cloud Computing Foundations: Cloud Computing Fundamentals",
+        "imageUrl": "https://placehold.co/150x150/000/fff?text=GCCF+Badge",
+        "link": "https://www.skills.google/profile/badges",
+        "provider": "Google",
+        "dateObtained": "November 2025",
+        "skills": "Cloud Computing, GCP (Google Cloud Platform)"
+      },
+      {
+        "name": "Google Cloud Computing Foundations: Cloud Infrastructure",
+        "imageUrl": "https://placehold.co/150x150/000/fff?text=GCCI+Badge",
+        "link": "https://www.skills.google/profile/badges",
+        "provider": "Google",
+        "dateObtained": "November 2025",
+        "skills": "Cloud Computing, Infrastructure as Code (IaC), GCP (Google Cloud Platform)"
+      },
+      {
+        "name": "Google Cloud Computing Foundations: Networking and Security in Google Cloud",
+        "imageUrl": "https://placehold.co/150x150/000/fff?text=GCCN/S+Badge",
+        "link": "https://www.skills.google/profile/badges",
+        "provider": "Google",
+        "dateObtained": "November 2025",
+        "skills": "Cloud Computing, GCP (Google Cloud Platform), Security"
+      },
+      {
+        "name": "Google Cloud Computing Foundations: Storage and Databases in Google Cloud",
+        "imageUrl": "https://placehold.co/150x150/000/fff?text=GCCS/D+Badge",
+        "link": "https://www.skills.google/profile/badges",
+        "provider": "Google",
+        "dateObtained": "November 2025",
+        "skills": "Cloud Computing, GCP (Google Cloud Platform)"
+      },
+      {
+        "name": "Google IT Support: Operating Systems and You",
+        "imageUrl": "https://placehold.co/150x150/000/fff?text=OS+Badge",
+        "link": "https://www.skills.google/profile/badges",
+        "provider": "Google",
+        "dateObtained": "November 2025",
+        "skills": "System Administration, Linux"
+      },
+      {
+        "name": "Google IT Support Certificate",
+        "imageUrl": "",
+        "link": "",
+        "provider": "Google Career Certificates",
+        "dateObtained": "October 31, 2025",
+        "skills": ""
+      },
+      {
+        "name": "Google IT Support: Technical Support Fundamentals",
+        "imageUrl": "https://placehold.co/150x150/000/fff?text=TSF+Badge",
+        "link": "https://www.skills.google/profile/badges",
+        "provider": "Google",
+        "dateObtained": "November 2025",
+        "skills": "IT Service Management (ITSM), Customer Service"
       },
       {
         "name": "AWS Certified Cloud Practitioner",
-        "imageUrl": "https://images.credly.com/size/110x110/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png",
-        "link": "https://images.credly.com/size/110x110/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png",
-        "skills": "UI/UX Design, Accessibility, Agile Methodologies"
+        "imageUrl": "https://placehold.co/150x150/000/fff?text=AWS+CCP+Badge",
+        "link": "",
+        "provider": "Amazon Web Services (AWS)",
+        "dateObtained": "October 2021",
+        "skills": "Amazon Web Services (AWS), Cloud Computing, DevOps, Terraform"
+      },
+      {
+        "name": "ITIL® 4 Specialist: Create, Deliver and Support",
+        "imageUrl": "https://placehold.co/150x150/000/fff?text=ITIL+CDS+Badge",
+        "link": "",
+        "provider": "PeopleCert",
+        "dateObtained": "October 2021",
+        "skills": "IT Service Management (ITSM), ITIL Frameworks, Agile Methodologies, Continuous Delivery"
+      },
+      {
+        "name": "ITIL® 4 Foundation Certificate in IT Service Management",
+        "imageUrl": "https://placehold.co/150x150/000/fff?text=ITIL+Foundation+Badge",
+        "link": "",
+        "provider": "Axelos",
+        "dateObtained": "November 2020",
+        "skills": "IT Service Management (ITSM), ITIL Frameworks"
+      }
+    ],
+
+    "DevOps, CI/CD & Software Engineering": [
+      {
+        "name": "IBM DevOps and Software Engineering Professional Certificate",
+        "imageUrl": "",
+        "link": "",
+        "provider": "Coursera",
+        "dateObtained": "November 13, 2025",
+        "skills": ""
+      },
+      {
+        "name": "Continuous Integration & Continuous Delivery (CI/CD)",
+        "imageUrl": "",
+        "link": "",
+        "provider": "Coursera",
+        "dateObtained": "November 13, 2025",
+        "skills": ""
+      },
+      {
+        "name": "DevOps Capstone",
+        "imageUrl": "",
+        "link": "",
+        "provider": "Coursera",
+        "dateObtained": "November 13, 2025",
+        "skills": ""
+      },
+      {
+        "name": "Git and GitHub Essentials",
+        "imageUrl": "",
+        "link": "",
+        "provider": "Coursera",
+        "dateObtained": "November 13, 2025",
+        "skills": ""
+      },
+      {
+        "name": "Linux Commands & Shell Scripting Essentials V2",
+        "imageUrl": "",
+        "link": "",
+        "provider": "Coursera",
+        "dateObtained": "November 13, 2025",
+        "skills": ""
+      },
+      {
+        "name": "Introduction to Test Driven Development",
+        "imageUrl": "",
+        "link": "",
+        "provider": "Coursera",
+        "dateObtained": "November 13, 2025",
+        "skills": ""
+      },
+      {
+        "name": "Security for Professionals and DevOps Professionals",
+        "imageUrl": "",
+        "link": "",
+        "provider": "Coursera",
+        "dateObtained": "November 13, 2025",
+        "skills": ""
+      }
+    ],
+
+    "Cloud, Containers & Microservices": [
+      {
+        "name": "Containers & Kubernetes Essentials",
+        "imageUrl": "",
+        "link": "",
+        "provider": "Coursera",
+        "dateObtained": "November 13, 2025",
+        "skills": ""
+      },
+      {
+        "name": "Application Development using Microservices and Serverless",
+        "imageUrl": "",
+        "link": "",
+        "provider": "Coursera",
+        "dateObtained": "November 13, 2025",
+        "skills": ""
+      }
+    ],
+
+    "Programming & AI Development": [
+      {
+        "name": "Python Project for AI and Application Development",
+        "imageUrl": "",
+        "link": "",
+        "provider": "Coursera",
+        "dateObtained": "November 13, 2025",
+        "skills": ""
+      }
+    ],
+
+    "Atlassian Technical Expertise": [
+      {
+        "name": "Atlassian Certified Jira Administrator for Cloud",
+        "imageUrl": "https://placehold.co/150x150/000/fff?text=Jira+Admin+Cloud+Badge",
+        "link": "",
+        "provider": "Atlassian",
+        "dateObtained": "March 2022",
+        "skills": "Jira (Admin/Ops), System Administration, Atlassian Suite (Data Center & Cloud)"
+      },
+      {
+        "name": "Atlassian Certified Jira Administrator for Data Center and Server",
+        "imageUrl": "https://placehold.co/150x150/000/fff?text=Jira+Admin+DC/Server+Badge",
+        "link": "",
+        "provider": "Atlassian",
+        "dateObtained": "May 2020",
+        "skills": "Jira (Admin/Ops), System Administration, Linux, Atlassian Suite (Data Center & Cloud)"
+      },
+      {
+        "name": "Managing Jira Projects for Cloud",
+        "imageUrl": "https://placehold.co/150x150/000/fff?text=Jira+Projects+Cloud+Badge",
+        "link": "",
+        "provider": "Atlassian",
+        "dateObtained": "March 2023",
+        "skills": "Jira (Admin/Ops), Agile Methodologies, PMO Project Management"
+      }
+    ],
+
+    "Cyber Security": [
+      {
+        "name": "Ethical Hacker",
+        "imageUrl": "",
+        "link": "",
+        "provider": "Cisco",
+        "dateObtained": "October 31, 2025",
+        "skills": ""
+      }
+    ],
+
+    "Web Development & Design": [
+      {
+        "name": "Introduction to HTML, CSS, & JavaScript",
+        "imageUrl": "https://placehold.co/150x150/000/fff?text=HTML/CSS/JS+Badge",
+        "link": "",
+        "provider": "Coursera",
+        "dateObtained": "January 2020",
+        "skills": "Web Development, HTML, CSS, JavaScript"
+      },
+      {
+        "name": "Front-end Development with React V2",
+        "imageUrl": "",
+        "link": "",
+        "provider": "Coursera",
+        "dateObtained": "November 15, 2025",
+        "skills": ""
+      }
+    ],
+    "Recognition & Awards": [
+      {
+        "name": "Best Hack Winner 1st place",
+        "imageUrl": "",
+        "link": "",
+        "provider": "ServiceRocket",
+        "dateObtained": "August 2022",
+        "skills": "Teamwork, Problem Solving, Leadership"
       }
     ]
   }
