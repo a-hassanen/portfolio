@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaLongArrowAltLeft } from "react-icons/fa";
+import { FaArrowLeft } from "react-icons/fa";
 import Header from './Header.jsx';
 import Footer from './Footer.jsx';
 import '../styles/ResumeView.css';
@@ -12,7 +12,6 @@ const ResumeView = () => {
   const pdfUrl = portfolioData.files.pdfUrl
     ? base + portfolioData.files.pdfUrl.replace(/^\//, "")
     : "";
-
   const wordUrl = portfolioData.files.wordUrl
     ? base + portfolioData.files.wordUrl.replace(/^\//, "")
     : "";
@@ -31,8 +30,8 @@ const ResumeView = () => {
                 onClick={() => window.history.back()}
                 className="bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-lg shadow transition inline-flex items-center mb-2"
               >
-              <FaLongArrowAltLeft className="chevron-icon" />
-              Go Back
+                <FaArrowLeft className="chevron-icon" />
+                Go Back
               </button>
             </div>
           </div>
