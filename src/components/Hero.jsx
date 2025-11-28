@@ -7,7 +7,7 @@ const Hero = ({ personalInfo }) => {
 
     // Resolve image path correctly in both DEV and GitHub Pages production
     const imageUrl = personalInfo.profileImage
-        ? `${import.meta.env.BASE_URL}${personalInfo.profileImage.replace(/^\//, '')}`
+        ? `${import.meta.env.BASE_URL}${personalInfo.profileImage.replace(/^\//, "")}`
         : '';
 
     return (
