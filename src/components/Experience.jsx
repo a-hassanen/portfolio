@@ -11,7 +11,7 @@ const Experience = ({ items }) => {
         <div key={index} className="card">
           <h3>{item.title} at {item.company}</h3>
           <p><strong>{item.period}</strong></p>
-          <p>{item.description}</p>
+          <p style={{ whiteSpace: "pre-line" }}>{item.description}</p>
         </div>
       ))}
     </section>
