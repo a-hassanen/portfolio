@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaArrowLeft } from "react-icons/fa";
 import Header from './Header.jsx';
 import Footer from './Footer.jsx';
 import '../styles/ResumeView.css';
@@ -26,9 +27,15 @@ const ResumeView = () => {
             {pdfUrl && <a href={pdfUrl} download className="button">Download PDF</a>}
             {wordUrl && <a href={wordUrl} download className="button">Download Word</a>}
             <div className="go-back-link">
-              <a href="" className="button">Go Back</a>
+              <button
+                onClick={() => window.history.back()}
+                className="bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-lg shadow transition inline-flex items-center mb-2"
+              >
+              <FaLongArrowAltLeft className="chevron-icon" />
+              Go Back
+              </button>
             </div>
-          </div>
+          </div>          </div>
           
           {(!pdfUrl && !wordUrl) && (
             <div className="card resume-error">
