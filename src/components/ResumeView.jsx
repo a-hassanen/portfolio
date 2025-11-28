@@ -35,7 +35,7 @@ const ResumeView = () => {
               Go Back
               </button>
             </div>
-          </div>          </div>
+          </div>
           
           {(!pdfUrl && !wordUrl) && (
             <div className="card resume-error">
