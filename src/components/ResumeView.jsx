@@ -29,6 +29,7 @@ const ResumeView = () => {
             <div className="go-back-link">
               <a href="" className="button">Go Back</a>
             </div>
+            
           </div>
           
           {(!pdfUrl && !wordUrl) && (
