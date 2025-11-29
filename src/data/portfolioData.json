@@ -342,33 +342,8 @@
         "provider": "EC-Council",
         "dateObtained": "November 2025",
         "skills": "Jira Administration, Automation, Atlassian Suite, Project Management, Jira Service Management (JSM)"
-      },
-      {
-        "name": "AWS Certified Cloud Practitioner",
-        "imageUrl": "https://placehold.co/150x150/000/fff?text=AWS+CCP+Badge",
-        "link": "https://images.credly.com/size/110x110/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png",
-        "provider": "Amazon Web Services (AWS)",
-        "dateObtained": "October 2021",
-        "skills": "Amazon Web Services (AWS), Cloud Computing, DevOps, Terraform"
-      },
-      {
-        "name": "ITIL® 4 Specialist: Create, Deliver and Support",
-        "imageUrl": "https://placehold.co/150x150/000/fff?text=ITIL+CDS+Badge",
-        "link": "https://images.credly.com/size/110x110/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png",
-        "provider": "PeopleCert",
-        "dateObtained": "October 2021",
-        "skills": "IT Service Management (ITSM), ITIL Frameworks, Agile Methodologies, Continuous Delivery"
-      },
-      {
-        "name": "ITIL® 4 Foundation Certificate in IT Service Management",
-        "imageUrl": "https://placehold.co/150x150/000/fff?text=ITIL+Foundation+Badge",
-        "link": "https://images.credly.com/size/110x110/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png",
-        "provider": "Axelos",
-        "dateObtained": "November 2020",
-        "skills": "IT Service Management (ITSM), ITIL Frameworks"
       }
     ],
-
     "DevOps, CI/CD & Software Engineering": [
       {
         "name": "Continuous Integration & Continuous Delivery (CI/CD)",
@@ -427,7 +402,6 @@
         "skills": "Kubernetes, Continuous Monitoring, Data Management, Cloud-Native Computing, Application Performance Management, Distributed Computing, Microservices, Containerization, Prometheus (Software), Grafana, DevOps, Docker (Software)"      
       }
     ],
-
     "Containers & Microservices": [
       {
         "name": "Containers & Kubernetes Essentials",
@@ -446,7 +420,6 @@
         "skills": "Docker, GraphQL, Microservices, Postman, Container, cURL, Flask, REST, Serverless Computing, Swagger"
       }
     ],
-
     "Programming & AI Development": [
       {
         "name": "Machine Learning Operations (MLOps) for Generative AI",
@@ -505,7 +478,6 @@
         "skills": "Web Scraping, Data Analysis, Computer Programming, Data Manipulation, Data Processing, Programming Principles, Numpy, Data Import/Export, Scripting, Automation, Jupyter, Pandas (Python Package)"
       }
     ],
-
     "Atlassian Technical Expertise": [
       {
         "name": "Confluence Quickstart: Cloud Badge",
