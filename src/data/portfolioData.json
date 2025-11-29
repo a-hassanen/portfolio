@@ -468,28 +468,60 @@
 
     "Atlassian Technical Expertise": [
       {
-        "name": "Atlassian Certified Jira Administrator for Cloud",
-        "imageUrl": "https://placehold.co/150x150/000/fff?text=Jira+Admin+Cloud+Badge",
-        "link": "https://images.credly.com/size/110x110/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png",
-        "provider": "Atlassian",
-        "dateObtained": "March 2022",
-        "skills": "Jira (Admin/Ops), System Administration, Atlassian Suite (Data Center & Cloud)"
-      },
-      {
-        "name": "Atlassian Certified Jira Administrator for Data Center and Server",
-        "imageUrl": "https://placehold.co/150x150/000/fff?text=Jira+Admin+DC/Server+Badge",
-        "link": "https://images.credly.com/size/110x110/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png",
+        "name": "Configuring and Troubleshooting Permissions in Jira",
+        "imageUrl": "https://cdn.exceedlms.com/uploads/certifications/badges/28795/original/uni-completioncertificate-badge.png?1742874838&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZG4uZXhjZWVkbG1zLmNvbS91cGxvYWRzL2NlcnRpZmljYXRpb25zL2JhZGdlcy8yODc5NS9vcmlnaW5hbC91bmktY29tcGxldGlvbmNlcnRpZmljYXRlLWJhZGdlLnBuZz8xNzQyODc0ODM4IiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzY0NTEzNjIyfX19XX0_&Signature=fx~RWiYvTUXP2RcHIFM7zLTiEa3P9Mu533ddV7EoHhWljGXyZKvZYiq9r2p1cKQPiCofWzWdMHDaDIRz8eda7k68FqFSEbEvt-cAGEkD-4MPGluMqBTq-ncrMYRt86czTDTPmzM1ZrR8wf1BeoNvufat~skasU0JEAO8~o4VXqB0g8kuBthl2pOv0Z1I1~FX0QeH1At3przduqlE5eEqEgAHtWcdjEXrEINz3uvXVo8spU7BcTEyRxw55ioWNctkXwDH3NAM7bGeEHz3VEj3hsxdJGNWj~IC1zBkOSy23GHn~tDHKtsn-8O6XmiLad4-XG4tJ2tEA~UeszYwDrJEWw__&Key-Pair-Id=APKAJINUZDMKZJI5I6DA",
+        "link": "https://drive.google.com/file/d/1vlT8QAwiXfa1vix8682OSxr8nmDhqRH7/view",
         "provider": "Atlassian",
         "dateObtained": "May 2020",
-        "skills": "Jira (Admin/Ops), System Administration, Linux, Atlassian Suite (Data Center & Cloud)"
+        "skills": "Jira Administration, Configuration Management, System Administration, Security Monitoring, Requirements Analysis, Atlassian Suite"
       },
       {
-        "name": "Managing Jira Projects for Cloud",
-        "imageUrl": "https://placehold.co/150x150/000/fff?text=Jira+Projects+Cloud+Badge",
-        "link": "https://images.credly.com/size/110x110/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png",
+        "name": "Customizing Jira Workflows",
+        "imageUrl": "https://cdn.exceedlms.com/uploads/certifications/badges/28795/original/uni-completioncertificate-badge.png?1742874838&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZG4uZXhjZWVkbG1zLmNvbS91cGxvYWRzL2NlcnRpZmljYXRpb25zL2JhZGdlcy8yODc5NS9vcmlnaW5hbC91bmktY29tcGxldGlvbmNlcnRpZmljYXRlLWJhZGdlLnBuZz8xNzQyODc0ODM4IiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzY0NTEzNjIyfX19XX0_&Signature=fx~RWiYvTUXP2RcHIFM7zLTiEa3P9Mu533ddV7EoHhWljGXyZKvZYiq9r2p1cKQPiCofWzWdMHDaDIRz8eda7k68FqFSEbEvt-cAGEkD-4MPGluMqBTq-ncrMYRt86czTDTPmzM1ZrR8wf1BeoNvufat~skasU0JEAO8~o4VXqB0g8kuBthl2pOv0Z1I1~FX0QeH1At3przduqlE5eEqEgAHtWcdjEXrEINz3uvXVo8spU7BcTEyRxw55ioWNctkXwDH3NAM7bGeEHz3VEj3hsxdJGNWj~IC1zBkOSy23GHn~tDHKtsn-8O6XmiLad4-XG4tJ2tEA~UeszYwDrJEWw__&Key-Pair-Id=APKAJINUZDMKZJI5I6DA",
+        "link": "https://drive.google.com/file/d/1TgZa8aAhz6Vo0Aoc4BVWoaIEZMHQrz4Q/view",
         "provider": "Atlassian",
-        "dateObtained": "March 2023",
-        "skills": "Jira (Admin/Ops), Agile Methodologies, PMO Project Management"
+        "dateObtained": "May 2020",
+        "skills": "Jira Administration, Configuration Management, System Administration, Automation, Atlassian Suite, Scripting"
+      },
+      {
+        "name": "Email In Jira",
+        "imageUrl": "https://cdn.exceedlms.com/uploads/certifications/badges/28795/original/uni-completioncertificate-badge.png?1742874838&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZG4uZXhjZWVkbG1zLmNvbS91cGxvYWRzL2NlcnRpZmljYXRpb25zL2JhZGdlcy8yODc5NS9vcmlnaW5hbC91bmktY29tcGxldGlvbmNlcnRpZmljYXRlLWJhZGdlLnBuZz8xNzQyODc0ODM4IiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzY0NTEzNjIyfX19XX0_&Signature=fx~RWiYvTUXP2RcHIFM7zLTiEa3P9Mu533ddV7EoHhWljGXyZKvZYiq9r2p1cKQPiCofWzWdMHDaDIRz8eda7k68FqFSEbEvt-cAGEkD-4MPGluMqBTq-ncrMYRt86czTDTPmzM1ZrR8wf1BeoNvufat~skasU0JEAO8~o4VXqB0g8kuBthl2pOv0Z1I1~FX0QeH1At3przduqlE5eEqEgAHtWcdjEXrEINz3uvXVo8spU7BcTEyRxw55ioWNctkXwDH3NAM7bGeEHz3VEj3hsxdJGNWj~IC1zBkOSy23GHn~tDHKtsn-8O6XmiLad4-XG4tJ2tEA~UeszYwDrJEWw__&Key-Pair-Id=APKAJINUZDMKZJI5I6DA",
+        "link": "https://drive.google.com/file/d/1Bbyv9jw5UkYISI8yqHyrjzJwlpR6JjU8/view",
+        "provider": "Atlassian",
+        "dateObtained": "May 2020",
+        "skills": "Jira Administration, System Administration, Atlassian Suite"
+      },
+      {
+        "name": "Is Your Jira Instance Secure?",
+        "imageUrl": "https://cdn.exceedlms.com/uploads/certifications/badges/28795/original/uni-completioncertificate-badge.png?1742874838&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZG4uZXhjZWVkbG1zLmNvbS91cGxvYWRzL2NlcnRpZmljYXRpb25zL2JhZGdlcy8yODc5NS9vcmlnaW5hbC91bmktY29tcGxldGlvbmNlcnRpZmljYXRlLWJhZGdlLnBuZz8xNzQyODc0ODM4IiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzY0NTEzNjIyfX19XX0_&Signature=fx~RWiYvTUXP2RcHIFM7zLTiEa3P9Mu533ddV7EoHhWljGXyZKvZYiq9r2p1cKQPiCofWzWdMHDaDIRz8eda7k68FqFSEbEvt-cAGEkD-4MPGluMqBTq-ncrMYRt86czTDTPmzM1ZrR8wf1BeoNvufat~skasU0JEAO8~o4VXqB0g8kuBthl2pOv0Z1I1~FX0QeH1At3przduqlE5eEqEgAHtWcdjEXrEINz3uvXVo8spU7BcTEyRxw55ioWNctkXwDH3NAM7bGeEHz3VEj3hsxdJGNWj~IC1zBkOSy23GHn~tDHKtsn-8O6XmiLad4-XG4tJ2tEA~UeszYwDrJEWw__&Key-Pair-Id=APKAJINUZDMKZJI5I6DA",
+        "link": "https://drive.google.com/file/d/1olYh7JHtqdva7HYQZdOmyeh7VLXsWa_f/view",
+        "provider": "Atlassian",
+        "dateObtained": "May 2020",
+        "skills": "Jira Administration, Security Monitoring, Atlassian Suite"
+      },
+      {
+        "name": "Issue Security in Jira",
+        "imageUrl": "https://cdn.exceedlms.com/uploads/certifications/badges/28795/original/uni-completioncertificate-badge.png?1742874838&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZG4uZXhjZWVkbG1zLmNvbS91cGxvYWRzL2NlcnRpZmljYXRpb25zL2JhZGdlcy8yODc5NS9vcmlnaW5hbC91bmktY29tcGxldGlvbmNlcnRpZmljYXRlLWJhZGdlLnBuZz8xNzQyODc0ODM4IiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzY0NTEzNjIyfX19XX0_&Signature=fx~RWiYvTUXP2RcHIFM7zLTiEa3P9Mu533ddV7EoHhWljGXyZKvZYiq9r2p1cKQPiCofWzWdMHDaDIRz8eda7k68FqFSEbEvt-cAGEkD-4MPGluMqBTq-ncrMYRt86czTDTPmzM1ZrR8wf1BeoNvufat~skasU0JEAO8~o4VXqB0g8kuBthl2pOv0Z1I1~FX0QeH1At3przduqlE5eEqEgAHtWcdjEXrEINz3uvXVo8spU7BcTEyRxw55ioWNctkXwDH3NAM7bGeEHz3VEj3hsxdJGNWj~IC1zBkOSy23GHn~tDHKtsn-8O6XmiLad4-XG4tJ2tEA~UeszYwDrJEWw__&Key-Pair-Id=APKAJINUZDMKZJI5I6DA",
+        "link": "https://drive.google.com/file/d/188PCeoSljffU1mAOT8b3vVn6IWQF4e4O/view",
+        "provider": "Atlassian",
+        "dateObtained": "May 2020",
+        "skills": "Jira Administration, System Administration, Security Monitoring, Atlassian Suite"
+      },
+      {
+        "name": "Jira Automation",
+        "imageUrl": "https://cdn.exceedlms.com/uploads/certifications/badges/28795/original/uni-completioncertificate-badge.png?1742874838&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZG4uZXhjZWVkbG1zLmNvbS91cGxvYWRzL2NlcnRpZmljYXRpb25zL2JhZGdlcy8yODc5NS9vcmlnaW5hbC91bmktY29tcGxldGlvbmNlcnRpZmljYXRlLWJhZGdlLnBuZz8xNzQyODc0ODM4IiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzY0NTEzNjIyfX19XX0_&Signature=fx~RWiYvTUXP2RcHIFM7zLTiEa3P9Mu533ddV7EoHhWljGXyZKvZYiq9r2p1cKQPiCofWzWdMHDaDIRz8eda7k68FqFSEbEvt-cAGEkD-4MPGluMqBTq-ncrMYRt86czTDTPmzM1ZrR8wf1BeoNvufat~skasU0JEAO8~o4VXqB0g8kuBthl2pOv0Z1I1~FX0QeH1At3przduqlE5eEqEgAHtWcdjEXrEINz3uvXVo8spU7BcTEyRxw55ioWNctkXwDH3NAM7bGeEHz3VEj3hsxdJGNWj~IC1zBkOSy23GHn~tDHKtsn-8O6XmiLad4-XG4tJ2tEA~UeszYwDrJEWw__&Key-Pair-Id=APKAJINUZDMKZJI5I6DA",
+        "link": "https://drive.google.com/file/d/1eiZW6183C6VStIWyLBUa3mMNAohCmG-x/view",
+        "provider": "Atlassian",
+        "dateObtained": "May 2020",
+        "skills": "Jira Administration, Continuous Integration and Continuous Delivery (CI/CD), System Administration, Automation, Atlassian Suite, Scripting, Enterprise Integration"
+      },
+      {
+        "name": "Managing the User Lifecycle in Jira",
+        "imageUrl": "https://cdn.exceedlms.com/uploads/certifications/badges/28795/original/uni-completioncertificate-badge.png?1742874838&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZG4uZXhjZWVkbG1zLmNvbS91cGxvYWRzL2NlcnRpZmljYXRpb25zL2JhZGdlcy8yODc5NS9vcmlnaW5hbC91bmktY29tcGxldGlvbmNlcnRpZmljYXRlLWJhZGdlLnBuZz8xNzQyODc0ODM4IiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzY0NTEzNjIyfX19XX0_&Signature=fx~RWiYvTUXP2RcHIFM7zLTiEa3P9Mu533ddV7EoHhWljGXyZKvZYiq9r2p1cKQPiCofWzWdMHDaDIRz8eda7k68FqFSEbEvt-cAGEkD-4MPGluMqBTq-ncrMYRt86czTDTPmzM1ZrR8wf1BeoNvufat~skasU0JEAO8~o4VXqB0g8kuBthl2pOv0Z1I1~FX0QeH1At3przduqlE5eEqEgAHtWcdjEXrEINz3uvXVo8spU7BcTEyRxw55ioWNctkXwDH3NAM7bGeEHz3VEj3hsxdJGNWj~IC1zBkOSy23GHn~tDHKtsn-8O6XmiLad4-XG4tJ2tEA~UeszYwDrJEWw__&Key-Pair-Id=APKAJINUZDMKZJI5I6DA",
+        "link": "https://drive.google.com/file/d/10rF1_IcriPuNf-3suy3daQ_cq1wubZgD/view",
+        "provider": "Atlassian",
+        "dateObtained": "May 2020",
+        "skills": "Jira Administration, LDAP Administration, System Administration, Atlassian Suite, IAM"
       }
     ],
 
