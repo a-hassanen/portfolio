@@ -7,8 +7,22 @@
     gap: 1rem;
     margin-bottom: 2rem;
     flex-wrap: wrap;
+    justify-content: flex-start;
 }
 
+.resume-actions a.button:hover {
+    position: relative;
+    z-index: auto;
+}
+
+.resume-embed.card {
+    position: relative;
+    z-index: auto;
+}
+
+.go-back-link {
+    margin-left: auto; 
+}
 .resume-embed {
     width: 100%;
     height: 800px;
@@ -34,5 +48,14 @@
     }
     .resume-actions {
         justify-content: center;
+    }
+}
+
+/* -----------------------------------------
+   RESPONSIVE STYLES (Mobile)
+   ----------------------------------------- */
+@media (max-width: 768px) {
+    .resume-iframe {
+        height: 500px !important;
     }
 }

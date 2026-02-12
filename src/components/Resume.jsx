@@ -9,7 +9,7 @@ const Resume = () => {
             <h2>Resume</h2>
             <div className="card">
                 <p>Interested in my full background? View my resume for a detailed look at my experience and skills.</p>
-                <a href="/#resume-view" className="button" style={{ marginTop: '1rem' }}>View My Resume</a>
+                <a href="/resume-view" className="button" style={{ marginTop: '1rem' }}>View My Resume</a>
             </div>
         </section>
     );

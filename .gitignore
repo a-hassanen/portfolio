@@ -22,3 +22,10 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Dependency directories
+.env.*.local
+
+# ESLint / Prettier caches
+.eslintcache
+.prettiercache

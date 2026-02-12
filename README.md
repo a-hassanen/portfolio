@@ -6,8 +6,8 @@ This is a highly-configurable, single-page portfolio website built with React. I
 
 - **Modern Tech Stack**: Built with React, Vite, and powered by the Gemini API.
 - **Easy to Update**: Edit a single `portfolioData.json` file to change all content.
-- **Visual Editor**: Use the in-browser editor (at `/#edit`) to visually update your content.
-- **AI Assistant**: A conversational AI helps you add new items to your portfolio.
+- **Visual Editor**: Use the in-browser editor (at `/edit`) to visually update your content.
+- 🔴 **AI Assistant**: A conversational AI helps you add new items to your portfolio. *(Under Development)*
 - **GitHub Actions Deployment**: Automatically deploys to GitHub Pages on every push to `main`.
 - **Fully Responsive**: Looks great on all devices.
 
@@ -41,7 +41,7 @@ To test your changes locally before pushing them, you need to use the built-in d
     - Save the file. The local development server will automatically reload with your changes.
 2.  **Use the Editor Mode:**
     - Run the project locally (see instructions above).
-    - Navigate to `/#edit` in your browser (e.g., `http://localhost:5173/#edit`).
+    - Navigate to `/edit` in your browser (e.g., `http://localhost:5173/edit`).
     - Use the forms or the AI assistant to make your changes.
     - Click the "Generate Configuration" button.
     - Copy the generated JSON and paste it over the entire content of your `portfolioData.json` file.
@@ -52,7 +52,7 @@ To test your changes locally before pushing them, you need to use the built-in d
 
 This project is configured for automatic deployment to GitHub Pages.
 
-1.  **Check `vite.config.js`**: The `base` property in `vite.config.js` is set to `/personal-portfolio/`. If your GitHub repository has a different name, you must update this value to match.
+1.  **Check `vite.config.js`**: The `base` property in `vite.config.js` is set to `/portfolio/`. If your GitHub repository has a different name, you must update this value to match.
 
 2.  **Enable GitHub Pages**: In your GitHub repository settings, go to the "Pages" section.
 

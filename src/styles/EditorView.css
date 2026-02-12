@@ -87,3 +87,17 @@
     overflow-y: auto;
     font-family: monospace;
 }
+
+#cert-header-row {
+ grid-template-columns: repeat(4, 1fr);
+}
+
+#cert-data-row {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+input {
+  width: 85%;
+  padding: 0.75rem;
+  border-radius: 5px;
+}

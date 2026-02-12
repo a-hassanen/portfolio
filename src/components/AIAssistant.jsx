@@ -13,14 +13,16 @@ const AIAssistant = ({ onAddItem }) => {
     React.useEffect(() => {
         const initChat = async () => {
             try {
-                const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+                const ai = new GoogleGenAI({ apiKey: import.meta.env.VITE_API_KEY });
                 const schema = {
+                    aboutme: { description: 'string' }, 
                     experience: { company: 'string', title: 'string', period: 'string', description: 'string' },
+                    education: { institution: 'string', degree: 'string', period: 'string', description: 'string' },
                     projects: { name: 'string', description: 'string', link: 'string' },
-                    certificates: { name: 'string', link: 'string' },
-                    badges: { name: 'string', imageUrl: 'string', link: 'string' }
+                    certificates: { name: 'string', link: 'string', category: 'string' },
+                    badges: { name: 'string', imageUrl: 'string', link: 'string', skills: ['string'] }
                 };
-                const systemInstruction = `You are a portfolio management assistant. Your goal is to help the user update their portfolio data by asking them questions. The portfolio data structure for items that can be added is: ${JSON.stringify(schema, null, 2)}. When a user wants to add an item, ask for all the necessary fields for that item type. Once you have all the information, present it as a JSON object for the user to confirm. IMPORTANT: You MUST wrap the final JSON object within <json> tags. For example: <json>{"section": "certificates", "data": {"name": "Certificate Name", "link": "https://example.com"}}</json>. Do not add the <json> block until you have all the required information. Start by asking what they'd like to do.`;
+                const systemInstruction = `You are a portfolio management assistant. Your goal is to help the user update their portfolio data by asking them questions. The portfolio data structure for items that can be added is: ${JSON.stringify(schema, null, 2)}. When a user wants to add an item, ask for all the necessary fields for that item type, including the category for certificates. Once you have all the information, present it as a JSON object for the user to confirm. IMPORTANT: You MUST wrap the final JSON object within <json> tags. For example: <json>{"section": "certificates", "data": {"category": "Cloud Certs", "name": "Certificate Name", "link": "https://example.com"}}</json>. Do not add the <json> block until you have all the required information. Start by asking what they'd like to do.`;
 
                 const newChat = ai.chats.create({
                     model: 'gemini-2.5-flash',
@@ -80,12 +82,28 @@ const AIAssistant = ({ onAddItem }) => {
         }
     };
     
+    // const handleConfirm = () => {
+    //     if (confirmation) {
+    //         onAddItem(confirmation.section, confirmation.data);
+    //         setConfirmation(null);
+    //         setMessages(prev => [...prev, { role: 'model', text: "Great! I've added that to the editor. You can see the new item in the form below. What's next?" }]);
+    //     }
+    // };
     const handleConfirm = () => {
-        if (confirmation) {
+        if (!confirmation) return;
+
+        if (confirmation.section === "aboutme") {
+            // Direct overwrite instead of adding items
+            onAddItem("aboutme", confirmation.data);
+        } else {
             onAddItem(confirmation.section, confirmation.data);
-            setConfirmation(null);
-            setMessages(prev => [...prev, { role: 'model', text: "Great! I've added that to the editor. You can see the new item in the form below. What's next?" }]);
         }
+
+        setConfirmation(null);
+        setMessages(prev => [
+            ...prev,
+            { role: 'model', text: "Great! I've updated that section. What would you like to do next?" }
+        ]);
     };
 
     return (

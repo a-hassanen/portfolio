@@ -1,70 +1,759 @@
 {
   "personalInfo": {
-    "name": "Alex Doe",
-    "title": "Senior Frontend Engineer",
-    "profileImage": "src/assets/profile.png",
-    "bio": "I'm a passionate developer with a knack for creating beautiful, functional, and accessible web experiences. I love tackling complex problems and turning ideas into reality. This portfolio is a showcase of my journey in tech.",
-    "email": "alex.doe@example.com",
-    "github": "https://github.com/example",
-    "linkedin": "https://linkedin.com/in/example"
+    "name": "Ahmed Hassanen",
+    "title": "SENIOR PLATFORM ENGINEER | DEVOPS & AUTOMATION ENGINEER | ATLASSIAN SOLUTIONS EXPERT",
+    "profileImage": "/assets/profile.png",
+    "bio": "Senior Platform & DevOps Engineer with 7+ years of hands-on experience in designing, scaling, and automating complex enterprise platforms.",
+    "email": "AhmedHssanen@hotmail.com",
+    "github": "https://github.com/a-hassanen",
+    "linkedin": "https://linkedin.com/in/ahmed-hassanen",
+    "whatsapp1": "971509406243",
+    "whatsapp2": "966537807734",
+    "phone1": "+971509406243",
+    "phone2": "+966537807734",
+    "credly": "https://www.credly.com/users/ahmed-hassanen",
+    "googleSkills": "https://www.skills.google/public_profiles/17b0d35d-03a5-410e-8609-530db49f929c",
+    "coursera": "https://www.coursera.org/user/89dca36f46ad86926efe94b32ef8ada5"
+  },
+  "files": {
+    "bgvidUrl1": "/assets/bg-vid-1.mp4",
+    "bgvidUrl2": "/assets/bg-vid-2.mp4",
+    "pdfUrl": "/assets/resumes/Ahmed-Hassanen.pdf",
+    "wordUrl": "/assets/resumes/Ahmed-Hassanen.docx"
+  },
+  "aboutme":{
+    "description": "Senior Platform & DevOps Engineer with 7+ years of hands-on experience in designing, scaling, and automating complex enterprise platforms. Specialized in Infrastructure-as-Code (IaC) with Terraform, CI/CD automation pipelines with GitLab & Jenkins, and multi-cloud management with AWS, GCP, Azure, and EKS. Proven leader in cloud migration, designing and implementing system architecture & integrations, that provide high-availability resilient environments within ITIL frameworks & Agile methodologies to achieve operational excellence. My core expertise includes PMO project management & delivery, end-to-end management and administration of Atlassian Suite Data Center & Cloud. Full-lifecycle custom solution development, including the training of AI/ML services and Atlassian Rovo.",
+    "Languages": [
+      {
+        "name": "English",
+        "proficiency": "Fluent"
+      },
+      {
+        "name": "Arabic",
+        "proficiency": "Native"
+      }
+    ],
+    "Availability": "Negotiable",
+    "Location": "Riyadh, Saudi Arabia",
+    "PreferredLocations": "UAE, Saudi Arabia, Qatar, Remote",
+    "Relocation": "Open to relocate anywhere"
   },
   "experience": [
     {
-      "company": "Tech Solutions Inc.",
-      "title": "Senior Frontend Engineer",
-      "period": "Jan 2020 - Present",
-      "description": "Led the development of a new user-facing analytics dashboard using React and D3.js. Mentored junior developers and improved code quality across the team by implementing a new style guide."
+      "company": "Tawal",
+      "title": "Senior Platform Engineer (Atlassian)",
+      "period": "October 2024 - Present",
+      "description": "- Drove a 20% improvement in operations performance and efficiency by designing and deploying large-scale custom solutions within the Atlassian Suite products (Jira & Confluence).\n - Achieved 99.9% application performance and uptime through end-to-end management & administration of Data Center Atlassian Suite applications.\n-  Reduced manual tasks across the business by 80% by enhancing customized workflows and automation solutions using scripting.\n-  Increased platform resilience and availability by 33% by leading the IaC deployment process using Terraform with minimal disruption to business operations.\n-  Improved visibility and cross-platform data flow by 40% by integrating Atlassian Suite products with other enterprise systems via scripting, serverless middleware, and custom automation pipelines."    
     },
     {
-      "company": "Web Innovators",
-      "title": "Frontend Developer",
-      "period": "Jun 2017 - Dec 2019",
-      "description": "Developed and maintained responsive websites for various clients using HTML, CSS, and JavaScript. Collaborated with designers to ensure pixel-perfect implementation of UIs."
+      "company": "ServiceRocket",
+      "title": "Senior Platform & DevOps Engineer (Atlassian & Cloud)",
+      "period": "July 2022 - October 2024",
+      "description": "- Achieved 35% cost reduction, and improved deployment velocity by 45% by Optimizing IaaS cloud infrastructure across AWS (EC2, S3, RDS, NoSQL, Lambda, IAM, VPC, CloudWatch, A2I, Lex) and GCP (Compute Engine, Cloud Storage, GKE, GCF, Vertex Ai) via Terraform & CI/CD, focusing on security, and performance optimization and high-availability.\n-  Architected and developed 10+ mission-critical system integrations (e.g. AWS, GCP, Jira, Confluence, Rovo, Oracle NetSuite, HubSpot, OpsGenie) using scripting, including SSO/SAML, and password-vaulted apps, enhancing automation and operational efficiency.\n-  Increased team's SLA performance by 25% by mentoring, training and upskilling junior engineers on troubleshooting complex issues & scripting by hosting knowledge transfer sessions.\n-  Increased system speed and stability by 20% by identifying and resolving infrastructure bottlenecks through targeted solutions implementation.\n-  Increased IT organizational performance, and service maturity by 40% by driving strategic IT initiatives and continuous improvement efforts, incorporating market benchmarks like ITIL & Agile processes.\n-  Executed PMO projects end to end, defining scope, directing cross-functional partners, and controlling resource allocation to ensure on-time delivery.\n-  Supported and maintained end to end All Atlassian Suite applications on all hosting options."
+    },
+    {
+      "company": "ServiceRocket",
+      "title": "Platform & Systems Engineer (Cloud & Atlassian Automation)",
+      "period": "October 2021 - July 2022",
+      "description": "- Maximized ROI on current technology investments and leveraged Cloud trends to architect future business strategies by designing and implementing emerging technology solutions.\n-  Achieved a 22% higher score in PEN Test by improving security across all departments; enhancing overall security posture, patching systems, and resolving security incidents.\n-  Achieved a 34% reduction in procurement costs by authoring business case analysis to address clients' most pressing technology challenges, recommending optimal hardware, software, and networking purchases.\n-  Supported and maintained end to end All Atlassian Suite applications on all hosting options."
+    },
+    {
+      "company": "ServiceRocket",
+      "title": "ITSM & Systems Engineer (Atlassian)",
+      "period": "June 2020 - October 2021",
+      "description": "- Established and managed a Configuration Management Database (CMDB) process ensuring all hardware and software assets were recorded and automatically managed per ITIL Policies.\n-  Defined, communicated, and implemented global IT strategic plans, policies, and technical governance standards addressing operational and technological business needs according to ITIL & Agile methodologies.\n-  Enhanced security posture and access control by administering IAM and permissions across various systems including LDAPs, Google Suite, Crowd, Okta, and Cisco Meraki.\n-  Supported and maintained end to end All Atlassian Suite applications on all hosting options."    
+    },
+    {
+      "company": "Atlassian",
+      "title": "Application Support Engineer",
+      "period": "September 2019 - June 2020",
+      "description": "- Provided technical expertise on the administration of security tools that control and monitor data security, including Intrusion Detection for Jira Server/Data Center.\n-  Functioned as the primary technical expert on installation, operation, configuration, and upgrades of Jira Server/Data Center.\n-  Applied troubleshooting techniques to resolve problems, ensuring maintenance of existing operational services and minimizing downtime for customers by 15%.\n-  Supported and maintained end to end All Atlassian Suite applications on Server/Data Center."    
+    },
+    {
+      "company": "T-Systems",
+      "title": "Infrastructure Support Engineer",
+      "period": "December 2017 - May 2018",
+      "description": "- Optimized networks, systems, servers, and applications to identify and correct malfunctions and operational issues, maintaining high-availability standards across 24/7 operations.\n-  Served as Incident Manager, directing teams to ensure fast resolution of critical issues within SLA agreements.\n-  Uphold security compliance and operational continuity by performing audits, patch management, and log reviews for clients' servers.\n-  Supported migration and maintenance of customer servers, improving service stability while ensuring 99.9% uptime service."
     }
   ],
-  "skills": [
-    "React",
-    "TypeScript",
-    "JavaScript (ES6+)",
-    "Node.js",
-    "HTML5 & CSS3",
-    "Webpack",
-    "Vite",
-    "Git & GitHub",
-    "UI/UX Design",
-    "Accessibility",
-    "Jest & RTL"
-  ],
-  "projects": [
+  "education": [
     {
-      "name": "Project Alpha",
-      "description": "A full-stack web application for project management, built with React and Node.js.",
-      "link": "https://github.com/example/project-alpha"
-    },
+      "institution": "Limkokwing University of Creative Technology",
+      "location": "Selangor, Malaysia",
+      "degree": "Bachelor's degree of Science - BS, Information & Communication Technology",
+      "period": "",
+      "description": "Graduated with honors.",
+      "link": "https://www.credly.com/badges/82abe337-c40f-4c38-938c-7d5e967a7432"
+    }
+  ],
+  "skills": {
+    "Programming Languages & Scripting": [
+      "Shell Scripting",
+      "Linux",
+      "Python",
+      "Java",
+      "GoLang",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Application Security",
+      "Cross-site scripting (XSS)",
+      "Kali Linux",
+      "OpenSSL",
+      "SonarQube",
+      "SQL Injection",
+      "Flask",
+      "Nmap",
+      "Open Web Application Security Project (OWASP) ZAP",
+      "Snyk",
+      "Bash (Unix Shell)",
+      "Python (Programming Language)",
+      "Computer Programming",
+      "Scripting",
+      "Python Programming"
+    ],
+    "Cloud Platforms": [
+      "Amazon Web Services (AWS)",
+      "Cloud Computing",
+      "GCP (Google Cloud Platform)",
+      "Azure (Microsoft Azure)",
+      "Multi-Cloud Management",
+      "Cloud Migration",
+      "IBM Cloud",
+      "Cloud Computing IaaS"
+    ],
+    "Infrastructure as Code (IaC)": [
+      "Terraform",
+      "CloudFormation",
+      "Configuration Management"
+    ],
+    "Containerization & Orchestration": [
+      "Kubernetes (EKS, AKS)",
+      "Docker",
+      "Containerization",
+      "Kubernetes/OpenShift",
+      "Openshift",
+      "Container"
+    ],
+    "DevOps & CI/CD Tools": [
+      "DevOps",
+      "CI/CD",
+      "GitLab CI/CD",
+      "Jenkins",
+      "Jira (Admin/Ops)",
+      "Confluence (Admin/Ops)",
+      "Atlassian Suite (Data Center & Cloud)",
+      "Atlassian Rovo",
+      "Continuous Delivery",
+      "System Administration",
+      "Advanced JQL",
+      "Agile Software Development",
+      "Change Management",
+      "Continuous Integration and Continuous Delivery (CI/CD)",
+      "Jira Administration",
+      "Automation",
+      "Atlassian Suite",
+      "GitOps Pipeline",
+      "OpenShift Pipelines",
+      "Tekton",
+      "CI/CD Pipeline Automation",
+      "Flask-Talisman",
+      "GitHub Actions",
+      "Nosetests",
+      "ZenHub Kanban Board",
+      "Git",
+      "GitHub",
+      "Gitlab",
+      "Git Lab Branch Workflow",
+      "Merge",
+      "Distributed Version Control",
+      "Pyunit",
+      "Istio",
+      "Prometheus (Software)",
+      "Grafana",
+      "Command-Line Interface",
+      "Docker (Software)",
+      "Development Environment",
+      "Application Deployment",
+      "Jupyter",
+      "Service Desk Management",
+      "Enterprise Integration",
+      "Jira Service Management (JSM)",
+      "LDAP Administration",
+      "IAM"
+    ],
+    "Methodologies & Management": [
+      "ITIL Frameworks",
+      "IT Service Management (ITSM)",
+      "Agile Methodologies",
+      "PMO Project Management",
+      "Incident Management",
+      "Customer Service",
+      "Problem Solving",
+      "Strategic Planning",
+      "Scrum",
+      "Requirements Analysis",
+      "Test-Driven Development",
+      "Project Management"
+    ],
+    "Web Development & Design": [
+      "Web Development",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Cross-origin Resource Sharing (CORS) Policies",
+      "HTML5",
+      "Web",
+      "Front-end Development",
+      "Front-end Frameworks"
+    ],
+    "Soft Skills": [
+      "Team Leadership",
+      "Leadership",
+      "Mentoring",
+      "Communication",
+      "Teamwork",
+      "Collaboration",
+      "Social Coding"
+    ],
+    "AI & Data Science": [
+      "Data Science",
+      "Artificial Intelligence",
+      "AI/ML Operations",
+      "Web Scraping",
+      "Data Analysis",
+      "Data Manipulation",
+      "Data Processing",
+      "Numpy",
+      "Data Import/Export",
+      "Pandas (Python Package)",
+      "Data Management"
+    ],
+    "Security & Monitoring": [
+      "Security Monitoring",
+      "Continuous Monitoring",
+      "Application Performance Management"
+    ],
+    "API & Backend Development": [
+      "REST APIs",
+      "Code Repositories",
+      "REST",
+      "GraphQL",
+      "Microservices",
+      "Postman",
+      "cURL",
+      "Serverless Computing",
+      "Swagger",
+      "Server Side",
+      "Restful API",
+      "Distributed Computing",
+      "Scalability",
+      "Open Source"
+    ],
+    "Software Quality & Testing": [
+      "Software Testing",
+      "Test Cases",
+      "Assertions",
+      "Automated testing",
+      "Factories",
+      "Fakes",
+      "Mocks",
+      "Test Coverage",
+      "Test Fixtures",
+      "Unit Testing",
+      "Code Review"
+    ],
+    "Front-End Framework": [
+      "React (Web Framework)",
+      "Application States",
+      "Class Components",
+      "Component Composition",
+      "Component Lifecycles",
+      "Component States",
+      "CRA",
+      "Custom Hooks",
+      "Data Binding",
+      "Fetch",
+      "Forms",
+      "Function Components",
+      "Hooks",
+      "JSX",
+      "Props",
+      "React",
+      "React ToolKit",
+      "Redux",
+      "saga",
+      "Side Effects",
+      "Thunk",
+      "UseEffect Hook",
+      "User Interfaces",
+      "UseState Hook",
+      "Virtual Dom",
+      "Vite"
+    ],
+    "General Principles": [
+      "Software Development",
+      "Programming Principles",
+      "Web Applications"
+    ]
+  },
+  "projects": [
     {
       "name": "Portfolio Website",
       "description": "This very portfolio, built to be easily configurable and deployable.",
-      "link": "https://github.com/example/portfolio"
+      "link": "https://github.com/a-hassanen/portfolio"
     }
   ],
-  "certificates": [
-    {
-      "name": "Advanced React - Scrimba",
-      "link": "https://scrimba.com/learn/advancedreact"
-    },
-    {
-      "name": "UI/UX Design Specialization - Coursera",
-      "link": "https://www.coursera.org/specializations/ui-ux-design"
-    }
-  ],
-  "badges": [
-    {
-      "name": "GitHub Arctic Code Vault Contributor",
-      "imageUrl": "https://github.githubassets.com/images/modules/profile/badge--acv-2020.png"
-    },
-    {
-      "name": "AWS Certified Cloud Practitioner",
-      "imageUrl": "https://images.credly.com/size/110x110/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png"
-    }
-  ]
+  "certificates": {
+    "Cloud, DevOps, & IT Service Management": [
+      {
+        "name": "IBM DevOps and Software Engineering",
+        "link": "https://www.coursera.org/account/accomplishments/professional-cert/C8POBZ1XWY5O?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=prof",
+        "provider": "Google",
+        "dateObtained": "November 2025",
+        "expiryDate": ""
+      },
+      {
+        "name": "Google Cloud DevOps Engineer, SRE Certificate",
+        "link": "https://www.skills.google/public_profiles/17b0d35d-03a5-410e-8609-530db49f929c/badges/19340797",
+        "provider": "Google",
+        "dateObtained": "October 2025",
+        "expiryDate": ""
+      },
+      {
+        "name": "Google IT Support Certificate",
+        "link": "https://www.credly.com/badges/ed753e23-8439-4649-9bc8-91077f74e459/linked_in_profile",
+        "provider": "Google",
+        "dateObtained": "October 2025",
+        "expiryDate": ""
+      },
+      {
+        "name": "Google Cloud Computing Foundations Certificate",
+        "link": "https://www.skills.google/public_profiles/17b0d35d-03a5-410e-8609-530db49f929c/badges/11287513",
+        "provider": "Google",
+        "dateObtained": "October 2025",
+        "expiryDate": ""
+      },
+      {
+        "name": "ITIL® 4 Specialist Create, Deliver and Support",
+        "link": "https://drive.google.com/file/d/1FYvE3qnnHTqjVxq8JpV4byIhstIQgQ6E/view",
+        "provider": "Axelos",
+        "dateObtained": "September 2022",
+        "expiryDate": ""
+      },
+      {
+        "name": "AWS Certified Cloud Practitioner",
+        "link": "https://drive.google.com/file/d/1ms29uaGTpax_0r6fzKeBNrk96XbYcgrh/view",
+        "provider": "Amazon",
+        "dateObtained": "May 2021",
+        "expiryDate": "May 2027"
+      },
+      {
+        "name": "ITIL® Foundation Certificate in IT Service Management",
+        "link": "https://drive.google.com/file/d/1GkagP8B5XgYaraa4bq8yYKkn3TvkGzQt/view",
+        "provider": "Axelos",
+        "dateObtained": "November 2020",
+        "expiryDate": ""
+      }
+    ],
+    "Atlassian Technical Expertise": [
+      {
+        "name": "Atlassian Certified Expert (ACE)",
+        "link": "https://cp.certmetrics.com/atlassian/en/public/badge/c?id=AT00143547&ccat=62&date=2024-1-18",
+        "provider": "Atlassian",
+        "dateObtained": "January 2023",
+        "expiryDate": ""
+      },
+      {
+        "name": "Cloud Organization Admin (ACP-520)",
+        "link": "https://drive.google.com/file/d/1phxdBksO_nvL30w4DaK3Blht9tvNZ9Zo/view",
+        "provider": "Atlassian",
+        "dateObtained": "September 2023",
+        "expiryDate": "August 2027"
+      },
+      {
+        "name": "Managing Jira Projects for Cloud (ACP-620)",
+        "link": "https://cp.certmetrics.com/atlassian/en/public/badge/c?id=AT00143547&date=2023-01-14&ccat=30",
+        "provider": "Atlassian",
+        "dateObtained": "January 2023",
+        "expiryDate": ""
+      },
+      {
+        "name": "Confluence Space Administration (APB-220)",
+        "link": "https://cp.certmetrics.com/atlassian/en/public/badge/c?id=AT00143547&date=2022-05-03&ccat=35",
+        "provider": "Atlassian",
+        "dateObtained": "May 2022",
+        "expiryDate": ""
+      },
+      {
+        "name": "Jira Administrator for Cloud (ACP-120)",
+        "link": "https://drive.google.com/file/d/1uum3Iwel_rCpkYloe20FDrinc-wSJLod/view",
+        "provider": "Atlassian",
+        "dateObtained": "February 2022",
+        "expiryDate": "June 2027"
+      },
+      {
+        "name": "Jira Administrator for Data Center & Server (ACP-100)",
+        "link": "https://cp.certmetrics.com/atlassian/en/public/verify/credential/T6XBMRCK2JR11WKH",
+        "provider": "Atlassian",
+        "dateObtained": "May 2020",
+        "expiryDate": "August 2027"
+      }
+    ],
+    "Cyber Security": [
+      {
+        "name": "Security for Professionals and DevOps Professionals",
+        "link": "https://drive.google.com/file/d/1B4glnu6lXH6w-8U0EHU55NsL5SWQOd8-/view",
+        "provider": "IBM",
+        "dateObtained": "November 2025",
+        "expiryDate": ""
+      },
+      {        
+        "name": "Ethical Hacker",
+        "link": "https://drive.google.com/file/d/12e5w-pFBa1icUTf-2kBofgI2LHcxMYR2/view?usp=sharing",
+        "provider": "Cisco",
+        "dateObtained": "October 2025",
+        "expiryDate": ""
+      },
+      {
+        "name": "Cybersecurity for Businesses",
+        "link": "https://learn.eccouncil.org/certificate/05a44f42-8fb7-4bbd-ba90-41dd1af221c5",
+        "provider": "EC-Council",
+        "dateObtained": "November 2025",
+        "expiryDate": ""
+      },
+      {
+        "name": "Cisco LABS Crash Course",
+        "link": "https://learn.eccouncil.org/certificate/9692f93e-a331-4e66-a034-364df6921512",
+        "provider": "EC-Council",
+        "dateObtained": "November 2025",
+        "expiryDate": ""
+      },
+      {
+        "name": "SQL Injection Attacks",
+        "link": "https://learn.eccouncil.org/certificate/a07d7aa1-febb-4740-812b-71594ba8e60a",
+        "provider": "EC-Council",
+        "dateObtained": "November 2025",
+        "expiryDate": ""
+      },
+      {
+        "name": "Phishing Foundations",
+        "link": "https://drive.google.com/file/d/1-vJe-jVFAlQCXx-i2fxWOKhtNhZehHFi/view",
+        "provider": "Tawal",
+        "dateObtained": "November 2025",
+        "expiryDate": ""
+      },
+      {
+        "name": "Data Security and Privacy",
+        "link": "https://drive.google.com/file/d/1eoGbiK6pUMiU8xw5bzureLdH_7tfi_v8/view",
+        "provider": "EverFi",
+        "dateObtained": "October 2021",
+        "expiryDate": ""
+      }
+    ]
+  },
+  "badges": {
+    "Cloud, & IT Service Management": [
+      {
+        "name": "Google Cloud Computing Foundations: Cloud Computing Fundamentals",
+        "imageUrl": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_100_100/B4EZmhegXHGcAU-/0/1759350753990/google_logo?e=1766016000&v=beta&t=fR_FqAATCDGeBCo8yxoQR6JtKXDz3Ws5h7gwSacBtGE",
+        "link": "https://www.skills.google/public_profiles/17b0d35d-03a5-410e-8609-530db49f929c/badges/11287513",
+        "provider": "Google",
+        "dateObtained": "September 2024",
+        "skills": "Cloud Computing, GCP (Google Cloud Platform)"
+      },
+      {
+        "name": "Introduction to Agile Development and Scrum",
+        "imageUrl": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/http://coursera-university-assets.s3.amazonaws.com/c0/87a10033a311e892619b85c6fd62bb/IBM-200x48.png?auto=format%2Ccompress&dpr=2&h=45",
+        "link": "https://www.coursera.org/account/accomplishments/verify/5ARGP43X0YZ3",
+        "provider": "IBM",
+        "dateObtained": "November 2025",
+        "skills": "Scrum, Agile Methodologies, Project Management, Continuous Integration and Continuous Delivery (CI/CD), Strategic Planning, ITIL Certified, JavaScript, Teamwork, Requirements Analysis"
+      },
+      {
+        "name": "Scrum Certification + Scrum Master + Agile Scrum Training",
+        "imageUrl": "https://media.licdn.com/dms/image/v2/C560BAQHPon7g_XjJpA/company-logo_200_200/company-logo_200_200/0/1631371916365?e=1766016000&v=beta&t=hASkVeaO4V0sYT73SBxIBg3XTYKiFqDPwKJAdjltqTc",
+        "link": "https://learn.eccouncil.org/certificate/87b369f8-8477-4c2b-81bd-13faee7562fc",
+        "provider": "EC-Council",
+        "dateObtained": "November 2025",
+        "skills": "Scrum, Agile Methodologies, Project Management, Continuous Integration and Continuous Delivery (CI/CD), Strategic Planning, ITIL Certified, JavaScript, Teamwork, Requirements Analysis"
+      },
+      {
+        "name": "Jira Agile Project Management + Jira Administration + Jira Agile",
+        "imageUrl": "https://media.licdn.com/dms/image/v2/C560BAQHPon7g_XjJpA/company-logo_200_200/company-logo_200_200/0/1631371916365?e=1766016000&v=beta&t=hASkVeaO4V0sYT73SBxIBg3XTYKiFqDPwKJAdjltqTc",
+        "link": "https://learn.eccouncil.org/certificate/cbe6c31a-aed1-4350-b0a5-dd432f71148d",
+        "provider": "EC-Council",
+        "dateObtained": "November 2025",
+        "skills": "Jira Administration, Automation, Atlassian Suite, Project Management, Jira Service Management (JSM)"
+      }
+    ],
+    "DevOps, CI/CD & Software Engineering": [
+      {
+        "name": "Continuous Integration & Continuous Delivery (CI/CD)",
+        "imageUrl": "https://images.credly.com/size/680x680/images/04d68dfe-1cdb-4083-8216-969f078f816a/image.png",
+        "link": "https://www.credly.com/badges/eb3a89dc-d6fc-40bb-9ca0-9d9714100808/public_url",
+        "provider": "IBM",
+        "dateObtained": "November 2025",
+        "skills": "DevOps, CI/CD, Continuous Integration and Continuous Delivery (CI/CD), GitOps Pipeline, OpenShift Pipelines,Tekton"
+      },
+      {
+        "name": "DevOps Capstone",
+        "imageUrl": "https://images.credly.com/size/680x680/images/a856d3ba-1aa7-4e93-8c15-8d65cec6368d/image.png",
+        "link": "https://www.credly.com/badges/c1a21e7b-0040-4fbc-8009-552db545dfec/public_url",
+        "provider": "IBM",
+        "dateObtained": "November 2025",
+        "skills": "Agile Methodologies, CI/CD Pipeline Automation, Cross-origin Resource Sharing (CORS) Policies, Docker, Flask-Talisman, GitHub Actions, Kubernetes/OpenShift, Nosetests, REST APIs, Tekton, Test-Driven Development, ZenHub Kanban Board"
+      },
+      {
+        "name": "Git and GitHub Essentials",
+        "imageUrl": "https://images.credly.com/size/680x680/images/9a0255eb-a47d-4f3a-9611-243bfe3eb9e4/image.png",
+        "link": "https://www.credly.com/badges/5928b8cd-5f95-4524-8302-15c1d93451a6/public_url",
+        "provider": "IBM",
+        "dateObtained": "November 2025",
+        "skills": "Collaboration, Git, GitHub, Software Development, Code Repositories, Distributed Version Control, Gitlab, Git Lab Branch Workflow, Merge, Open Source, Pull Request (PR), Social Coding"
+      },
+      {
+        "name": "Linux Commands & Shell Scripting Essentials V2",
+        "imageUrl": "https://images.credly.com/size/680x680/images/56774818-e5ff-4dd0-89db-a2a571b0c459/image.png",
+        "link": "https://www.credly.com/badges/32a88a9a-ae19-43b3-950d-93777b784708/public_url",
+        "provider": "IBM",
+        "dateObtained": "November 2025",
+        "skills": "Linux, Bash (Unix Shell), Shell Script"
+      },
+      {
+        "name": "Introduction to Test Driven Development",
+        "imageUrl": "https://images.credly.com/size/680x680/images/63ed678c-4f4d-435d-b3af-e8d0c94627a2/image.png",
+        "link": "https://www.credly.com/badges/b4cf4d14-fa88-44d7-843f-bdf859e86899/public_url",
+        "provider": "IBM",
+        "dateObtained": "November 2025",
+        "skills": "Python, Software Testing, Test Cases, Assertions, Automated testing, Factories, Fakes, Mocks, Pyunit, Test Coverage, Test-Driven Development, Test Fixtures"
+      },
+      {
+        "name": "Introduction to Software Engineering",
+        "imageUrl": "https://images.credly.com/size/680x680/images/63ed678c-4f4d-435d-b3af-e8d0c94627a2/image.png",
+        "link": "https://www.coursera.org/account/accomplishments/verify/4I1VQ8P36E7K",
+        "provider": "IBM",
+        "dateObtained": "November 2025",
+        "skills": "Continuous Integration and Continuous Delivery (CI/CD), Python (Programming Language), Shell Scripting, JavaScript, Bash, DevOps, Scripting"
+      },
+      {
+        "name": "Monitoring and Observability for Development and DevOps",
+        "imageUrl": "https://images.credly.com/size/680x680/images/63ed678c-4f4d-435d-b3af-e8d0c94627a2/image.png",
+        "link": "https://www.coursera.org/account/accomplishments/verify/TXHN7XFC461G",
+        "provider": "IBM",
+        "dateObtained": "November 2025",
+        "skills": "Kubernetes, Continuous Monitoring, Data Management, Cloud-Native Computing, Application Performance Management, Distributed Computing, Microservices, Containerization, Prometheus (Software), Grafana, DevOps, Docker (Software)"      
+      }
+    ],
+    "Containers & Microservices": [
+      {
+        "name": "Containers & Kubernetes Essentials",
+        "imageUrl": "https://images.credly.com/size/680x680/images/fadae326-142d-4855-a42f-f0b07e65eac1/image.png",
+        "link": "https://www.credly.com/badges/78129c3a-ce38-4219-bc71-8335bc46eaa1/public_url",
+        "provider": "IBM",
+        "dateObtained": "November 2025",
+        "skills": "IBM Cloud, Kubernetes, Cloud, Command-Line Interface, Containerization, Kubernetes, Cloud-Native Computing, DevOps, Docker (Software), Openshift, CI/CD, Istio, Application Deployment, Scalability, Microservices"
+      },
+      {
+        "name": "Application Development using Microservices and Serverless",
+        "imageUrl": "https://images.credly.com/size/680x680/images/eaaf4a45-b93e-41d1-91d3-d331c6210314/image.png",
+        "link": "https://www.credly.com/badges/b857e515-92de-43fc-9172-ba45eac8386e/public_url",
+        "provider": "IBM",
+        "dateObtained": "November 2025",
+        "skills": "Docker, GraphQL, Microservices, Postman, Container, cURL, Flask, REST, Serverless Computing, Swagger"
+      }
+    ],
+    "Programming & AI Development": [
+      {
+        "name": "AI in platform engineering",
+        "imageUrl": "https://vbeventstorage.blob.core.windows.net/cert-dz6y4mva8avzsmwp-tkcw/openbadges/badges/38b0fe4e-e92a-4463-a8ce-8f5ea0562554.png?223",
+        "link": "https://www.virtualbadge.io/certificate-validator?credential=38b0fe4e-e92a-4463-a8ce-8f5ea0562554",
+        "provider": "Platform Engineering",
+        "dateObtained": "December 2025",
+        "skills": "Cloud Development, Platform Engineering, AI/ML Operations"
+      },
+      {
+        "name": "Machine Learning Operations (MLOps) for Generative AI",
+        "imageUrl": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_100_100/B4EZmhegXHGcAU-/0/1759350753990/google_logo?e=1766016000&v=beta&t=fR_FqAATCDGeBCo8yxoQR6JtKXDz3Ws5h7gwSacBtGE",
+        "link": "https://www.skills.google/public_profiles/17b0d35d-03a5-410e-8609-530db49f929c/badges/19406783",
+        "provider": "Google",
+        "dateObtained": "October 2025",
+        "skills": "Cloud Computing, GCP (Google Cloud Platform), AI/ML Operations"
+      },
+      {
+        "name": "Model Armor: Securing AI Deployments",
+        "imageUrl": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_100_100/B4EZmhegXHGcAU-/0/1759350753990/google_logo?e=1766016000&v=beta&t=fR_FqAATCDGeBCo8yxoQR6JtKXDz3Ws5h7gwSacBtGE",
+        "link": "https://www.skills.google/public_profiles/17b0d35d-03a5-410e-8609-530db49f929c/badges/19411814",
+        "provider": "Google",
+        "dateObtained": "October 2025",
+        "skills": "Cloud Computing, GCP (Google Cloud Platform), AI/ML Operations"
+      },
+      {
+        "name": "Machine Learning Operations (MLOps) with Vertex AI: Model Evaluation",
+        "imageUrl": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_100_100/B4EZmhegXHGcAU-/0/1759350753990/google_logo?e=1766016000&v=beta&t=fR_FqAATCDGeBCo8yxoQR6JtKXDz3Ws5h7gwSacBtGE",
+        "link": "https://www.skills.google/public_profiles/17b0d35d-03a5-410e-8609-530db49f929c/badges/19410429",
+        "provider": "Google",
+        "dateObtained": "October 2025",
+        "skills": "Cloud Computing, GCP (Google Cloud Platform), AI/ML Operations"
+      },
+      {
+        "name": "Introduction to Security in the World of AI",
+        "imageUrl": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_100_100/B4EZmhegXHGcAU-/0/1759350753990/google_logo?e=1766016000&v=beta&t=fR_FqAATCDGeBCo8yxoQR6JtKXDz3Ws5h7gwSacBtGE",
+        "link": "https://www.skills.google/public_profiles/17b0d35d-03a5-410e-8609-530db49f929c/badges/19412087",
+        "provider": "Google",
+        "dateObtained": "October 2025",
+        "skills": "Cloud Computing, GCP (Google Cloud Platform), AI/ML Operations"
+      },
+      {
+        "name": "Python Project for AI and Application Development",
+        "imageUrl": "https://images.credly.com/size/680x680/images/33ed2910-9750-4613-aa2a-590e845c6edb/image.png",
+        "link": "https://www.credly.com/badges/0b802b73-ebb6-41e7-850b-013e02a15fef/public_url",
+        "provider": "IBM",
+        "dateObtained": "November 2025",
+        "skills": "Data Science, Python, Artificial Intelligence"
+      },
+      {
+        "name": "Developing AI Applications with Python and Flask",
+        "imageUrl": "https://images.credly.com/size/680x680/images/33ed2910-9750-4613-aa2a-590e845c6edb/image.png",
+        "link": "https://www.coursera.org/account/accomplishments/verify/7QPLV0O5HER3",
+        "provider": "IBM",
+        "dateObtained": "November 2025",
+        "skills": "Development Environment, Server Side, Flask (Web Framework), IBM Cloud, Unit Testing, Restful API, Programming Principles, Code Review, Web Applications, Application Deployment, Artificial Intelligence, Python Programming"
+      },
+      {
+        "name": "Python for Data Science, AI & Development",
+        "imageUrl": "https://images.credly.com/size/680x680/images/63ed678c-4f4d-435d-b3af-e8d0c94627a2/image.png",
+        "link": "https://www.coursera.org/account/accomplishments/verify/WBXS85Z3OSM3",
+        "provider": "IBM",
+        "dateObtained": "November 2025",
+        "skills": "Web Scraping, Data Analysis, Computer Programming, Data Manipulation, Data Processing, Programming Principles, Numpy, Data Import/Export, Scripting, Automation, Jupyter, Pandas (Python Package)"
+      }
+    ],
+    "Atlassian Technical Expertise": [
+      {
+        "name": "Confluence Quickstart: Cloud Badge",
+        "imageUrl": "https://cdn.exceedlms.com/uploads/certifications/badges/34249/large/uni-credential-atlassianuniversitybadge-generic.png?1649104194&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZG4uZXhjZWVkbG1zLmNvbS91cGxvYWRzL2NlcnRpZmljYXRpb25zL2JhZGdlcy8zNDI0OS9sYXJnZS91bmktY3JlZGVudGlhbC1hdGxhc3NpYW51bml2ZXJzaXR5YmFkZ2UtZ2VuZXJpYy5wbmc~MTY0OTEwNDE5NCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc2NDQ3OTEzMH19fV19&Signature=V2vU6eLKxKNG~FdukkW82fKUqzsL8s5lXOCtJpFN0drqNgy7mo4zJuUkBgRgfU3DBcNWz-UHHcFt01BRsn6GVtX6w3u-rS9sgsncWc9KK6SePde4v2Os3dlUYsjVc1reXIk9U8rzpUuVjQJLshfWl8K3ilZ6xmEd-LVHh4iKV4ux13Y24Csrbvr20hNRGcMLwWkUxbx7wwWv4q6AzhgvYnQquP62rY6lMatsDOXEp~tf1rMAd4yIO9latmylh7RhH66pPznkiZYqENb-sbwqrea1m7357oCnsdP9PBImsqmeE8aOaICwG2fVoRRQuKqvljqc1c2Cw1TRk9W-6nQUPA__&Key-Pair-Id=APKAJINUZDMKZJI5I6DA",
+        "link": "https://university.atlassian.com/student/award/F2QQXffMHi2Bjah5ZwnE6cYy",
+        "provider": "Atlassian",
+        "dateObtained": "May 2022",
+        "skills": "Cloud Computing IaaS, System Administration, Atlassian Suite"
+      },
+      {
+        "name": "Configuring and Troubleshooting Permissions in Confluence",
+        "imageUrl": "https://cdn.exceedlms.com/uploads/certifications/badges/28793/large/uni-completioncertificate-badge.png?1742872372&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZG4uZXhjZWVkbG1zLmNvbS91cGxvYWRzL2NlcnRpZmljYXRpb25zL2JhZGdlcy8yODc5My9sYXJnZS91bmktY29tcGxldGlvbmNlcnRpZmljYXRlLWJhZGdlLnBuZz8xNzQyODcyMzcyIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzY0NTE0OTc1fX19XX0_&Signature=QTBgpo06rarY0FNvBpdlKzlc8FO6MATD2dOYAOZhAO55UVT0kEg0mET8bDJcAfs0tIWWk4X0gT3x4G~N2umy3CwnHSRGj~veMAKLrksghdKGOfGR2JBfpkD8cghlc36hUoOoGM7WiLVehgJHWrLcKkURMS5ggQU1nDMvBtMx5o7ZicnadCOTGj3fbF-63U4iFsrOAddAT8C1UzRZMYXQcByzZFT4Nu6CQyg36mfhGzBqnSlFmJv1Ctt77qFf0C8rtGKa5CZ6NA0H4Uo1bqr1MgyqFNbVWpcL~uWxFuyvqSlEoTOB8ss8LkFTtnwn7Jom1WT1Mk4HwxWEuCoiEC7Xeg__&Key-Pair-Id=APKAJINUZDMKZJI5I6DA",
+        "link": "https://university.atlassian.com/student/award/cdByGky4cXcWmM3JzNvfcNFB",
+        "provider": "Atlassian",
+        "dateObtained": "April 2022",
+        "skills": "System Administration, Security Monitoring, Atlassian Suite"
+      },
+      {
+        "name": "Confluence Fundamentals Badge",
+        "imageUrl": "https://cdn.exceedlms.com/uploads/certifications/badges/28811/large/uni-credential-emblem-jirafundamentals__281_29.png?1625167569&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZG4uZXhjZWVkbG1zLmNvbS91cGxvYWRzL2NlcnRpZmljYXRpb25zL2JhZGdlcy8yODgxMS9sYXJnZS91bmktY3JlZGVudGlhbC1lbWJsZW0tamlyYWZ1bmRhbWVudGFsc19fMjgxXzI5LnBuZz8xNjI1MTY3NTY5IiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzY0NDQwMjQ0fX19XX0_&Signature=OANx95gpZSivXjgSZmNnF-jGcYnlrugRQf0rlmrhSi6h2jiqboFb47VT~XIkHxu4Y~a6I-i5db3QCBluP9LQIe4ORZuczeWgHNRzHcIT0jofkXJuV3Bn6ZRXyc~eCFbHIKmemYMTdfR8sA5U7bIyxkHBFJsqEl2LvxtB5mDskCQJZ3A~BjFitMi0H8K9F3oYZMcXZyPODzN3TRVYmBSC5oRcucGwGybb4cfrunNruM8rAWa6OEoLGLahaG2XngR9tdu-jFsH4kidT4dEyyyWESNiEOqRI3LVD25m~aKJerY2~ub1Hw4bYMDRdlBB~CAI-zeFNmQ5hPLxecx1MPpbfA__&Key-Pair-Id=APKAJINUZDMKZJI5I6DA",
+        "link": "https://university.atlassian.com/student/award/JkwjMSXLsdYL3Jk1BiHTjdsF",
+        "provider": "Atlassian",
+        "dateObtained": "April 2022",
+        "skills": "Configuration Management, Atlassian Suite"
+      },
+      {
+        "name": "Using Confluence for Documentation and Knowledge Bases",
+        "imageUrl": "https://cdn.exceedlms.com/uploads/certifications/badges/28793/large/uni-completioncertificate-badge.png?1742872372&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZG4uZXhjZWVkbG1zLmNvbS91cGxvYWRzL2NlcnRpZmljYXRpb25zL2JhZGdlcy8yODc5My9sYXJnZS91bmktY29tcGxldGlvbmNlcnRpZmljYXRlLWJhZGdlLnBuZz8xNzQyODcyMzcyIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzY0NTE0OTc1fX19XX0_&Signature=QTBgpo06rarY0FNvBpdlKzlc8FO6MATD2dOYAOZhAO55UVT0kEg0mET8bDJcAfs0tIWWk4X0gT3x4G~N2umy3CwnHSRGj~veMAKLrksghdKGOfGR2JBfpkD8cghlc36hUoOoGM7WiLVehgJHWrLcKkURMS5ggQU1nDMvBtMx5o7ZicnadCOTGj3fbF-63U4iFsrOAddAT8C1UzRZMYXQcByzZFT4Nu6CQyg36mfhGzBqnSlFmJv1Ctt77qFf0C8rtGKa5CZ6NA0H4Uo1bqr1MgyqFNbVWpcL~uWxFuyvqSlEoTOB8ss8LkFTtnwn7Jom1WT1Mk4HwxWEuCoiEC7Xeg__&Key-Pair-Id=APKAJINUZDMKZJI5I6DA",
+        "link": "https://university.atlassian.com/student/award/98E5RGQoZqv4LndGLVQ3QeJn",
+        "provider": "Atlassian",
+        "dateObtained": "April 2022",
+        "skills": "Configuration Management, System Administration, Atlassian Suite"
+      },
+      {
+        "name": "SLAs in Jira Service Management",
+        "imageUrl": "https://cdn.exceedlms.com/uploads/certifications/badges/28793/large/uni-completioncertificate-badge.png?1742872372&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZG4uZXhjZWVkbG1zLmNvbS91cGxvYWRzL2NlcnRpZmljYXRpb25zL2JhZGdlcy8yODc5My9sYXJnZS91bmktY29tcGxldGlvbmNlcnRpZmljYXRlLWJhZGdlLnBuZz8xNzQyODcyMzcyIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzY0NTE0OTc1fX19XX0_&Signature=QTBgpo06rarY0FNvBpdlKzlc8FO6MATD2dOYAOZhAO55UVT0kEg0mET8bDJcAfs0tIWWk4X0gT3x4G~N2umy3CwnHSRGj~veMAKLrksghdKGOfGR2JBfpkD8cghlc36hUoOoGM7WiLVehgJHWrLcKkURMS5ggQU1nDMvBtMx5o7ZicnadCOTGj3fbF-63U4iFsrOAddAT8C1UzRZMYXQcByzZFT4Nu6CQyg36mfhGzBqnSlFmJv1Ctt77qFf0C8rtGKa5CZ6NA0H4Uo1bqr1MgyqFNbVWpcL~uWxFuyvqSlEoTOB8ss8LkFTtnwn7Jom1WT1Mk4HwxWEuCoiEC7Xeg__&Key-Pair-Id=APKAJINUZDMKZJI5I6DA",
+        "link": "https://university.atlassian.com/student/award/jMRMt3MjTAnktEZmJ5nRh5ZB",
+        "provider": "Atlassian",
+        "dateObtained": "March 2022",
+        "skills": "Jira Administration, Configuration Management, Service Desk Management, Requirements Analysis, Atlassian Suite, Jira Service Management (JSM)"
+      },
+      {
+        "name": "Configuring and Troubleshooting Permissions in Jira",
+        "imageUrl": "https://cdn.exceedlms.com/uploads/certifications/badges/28793/large/uni-completioncertificate-badge.png?1742872372&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZG4uZXhjZWVkbG1zLmNvbS91cGxvYWRzL2NlcnRpZmljYXRpb25zL2JhZGdlcy8yODc5My9sYXJnZS91bmktY29tcGxldGlvbmNlcnRpZmljYXRlLWJhZGdlLnBuZz8xNzQyODcyMzcyIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzY0NTE0OTc1fX19XX0_&Signature=QTBgpo06rarY0FNvBpdlKzlc8FO6MATD2dOYAOZhAO55UVT0kEg0mET8bDJcAfs0tIWWk4X0gT3x4G~N2umy3CwnHSRGj~veMAKLrksghdKGOfGR2JBfpkD8cghlc36hUoOoGM7WiLVehgJHWrLcKkURMS5ggQU1nDMvBtMx5o7ZicnadCOTGj3fbF-63U4iFsrOAddAT8C1UzRZMYXQcByzZFT4Nu6CQyg36mfhGzBqnSlFmJv1Ctt77qFf0C8rtGKa5CZ6NA0H4Uo1bqr1MgyqFNbVWpcL~uWxFuyvqSlEoTOB8ss8LkFTtnwn7Jom1WT1Mk4HwxWEuCoiEC7Xeg__&Key-Pair-Id=APKAJINUZDMKZJI5I6DA",
+        "link": "https://drive.google.com/file/d/1vlT8QAwiXfa1vix8682OSxr8nmDhqRH7/view",
+        "provider": "Atlassian",
+        "dateObtained": "May 2020",
+        "skills": "Jira Administration, Configuration Management, System Administration, Security Monitoring, Requirements Analysis, Atlassian Suite"
+      },
+      {
+        "name": "Customizing Jira Workflows",
+        "imageUrl": "https://cdn.exceedlms.com/uploads/certifications/badges/28793/large/uni-completioncertificate-badge.png?1742872372&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZG4uZXhjZWVkbG1zLmNvbS91cGxvYWRzL2NlcnRpZmljYXRpb25zL2JhZGdlcy8yODc5My9sYXJnZS91bmktY29tcGxldGlvbmNlcnRpZmljYXRlLWJhZGdlLnBuZz8xNzQyODcyMzcyIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzY0NTE0OTc1fX19XX0_&Signature=QTBgpo06rarY0FNvBpdlKzlc8FO6MATD2dOYAOZhAO55UVT0kEg0mET8bDJcAfs0tIWWk4X0gT3x4G~N2umy3CwnHSRGj~veMAKLrksghdKGOfGR2JBfpkD8cghlc36hUoOoGM7WiLVehgJHWrLcKkURMS5ggQU1nDMvBtMx5o7ZicnadCOTGj3fbF-63U4iFsrOAddAT8C1UzRZMYXQcByzZFT4Nu6CQyg36mfhGzBqnSlFmJv1Ctt77qFf0C8rtGKa5CZ6NA0H4Uo1bqr1MgyqFNbVWpcL~uWxFuyvqSlEoTOB8ss8LkFTtnwn7Jom1WT1Mk4HwxWEuCoiEC7Xeg__&Key-Pair-Id=APKAJINUZDMKZJI5I6DA",
+        "link": "https://drive.google.com/file/d/1TgZa8aAhz6Vo0Aoc4BVWoaIEZMHQrz4Q/view",
+        "provider": "Atlassian",
+        "dateObtained": "May 2020",
+        "skills": "Jira Administration, Configuration Management, System Administration, Automation, Atlassian Suite, Scripting"
+      },
+      {
+        "name": "Email In Jira",
+        "imageUrl": "https://cdn.exceedlms.com/uploads/certifications/badges/28793/large/uni-completioncertificate-badge.png?1742872372&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZG4uZXhjZWVkbG1zLmNvbS91cGxvYWRzL2NlcnRpZmljYXRpb25zL2JhZGdlcy8yODc5My9sYXJnZS91bmktY29tcGxldGlvbmNlcnRpZmljYXRlLWJhZGdlLnBuZz8xNzQyODcyMzcyIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzY0NTE0OTc1fX19XX0_&Signature=QTBgpo06rarY0FNvBpdlKzlc8FO6MATD2dOYAOZhAO55UVT0kEg0mET8bDJcAfs0tIWWk4X0gT3x4G~N2umy3CwnHSRGj~veMAKLrksghdKGOfGR2JBfpkD8cghlc36hUoOoGM7WiLVehgJHWrLcKkURMS5ggQU1nDMvBtMx5o7ZicnadCOTGj3fbF-63U4iFsrOAddAT8C1UzRZMYXQcByzZFT4Nu6CQyg36mfhGzBqnSlFmJv1Ctt77qFf0C8rtGKa5CZ6NA0H4Uo1bqr1MgyqFNbVWpcL~uWxFuyvqSlEoTOB8ss8LkFTtnwn7Jom1WT1Mk4HwxWEuCoiEC7Xeg__&Key-Pair-Id=APKAJINUZDMKZJI5I6DA",
+        "link": "https://drive.google.com/file/d/1Bbyv9jw5UkYISI8yqHyrjzJwlpR6JjU8/view",
+        "provider": "Atlassian",
+        "dateObtained": "May 2020",
+        "skills": "Jira Administration, System Administration, Atlassian Suite"
+      },
+      {
+        "name": "Is Your Jira Instance Secure?",
+        "imageUrl": "https://cdn.exceedlms.com/uploads/certifications/badges/28793/large/uni-completioncertificate-badge.png?1742872372&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZG4uZXhjZWVkbG1zLmNvbS91cGxvYWRzL2NlcnRpZmljYXRpb25zL2JhZGdlcy8yODc5My9sYXJnZS91bmktY29tcGxldGlvbmNlcnRpZmljYXRlLWJhZGdlLnBuZz8xNzQyODcyMzcyIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzY0NTE0OTc1fX19XX0_&Signature=QTBgpo06rarY0FNvBpdlKzlc8FO6MATD2dOYAOZhAO55UVT0kEg0mET8bDJcAfs0tIWWk4X0gT3x4G~N2umy3CwnHSRGj~veMAKLrksghdKGOfGR2JBfpkD8cghlc36hUoOoGM7WiLVehgJHWrLcKkURMS5ggQU1nDMvBtMx5o7ZicnadCOTGj3fbF-63U4iFsrOAddAT8C1UzRZMYXQcByzZFT4Nu6CQyg36mfhGzBqnSlFmJv1Ctt77qFf0C8rtGKa5CZ6NA0H4Uo1bqr1MgyqFNbVWpcL~uWxFuyvqSlEoTOB8ss8LkFTtnwn7Jom1WT1Mk4HwxWEuCoiEC7Xeg__&Key-Pair-Id=APKAJINUZDMKZJI5I6DA",
+        "link": "https://drive.google.com/file/d/1olYh7JHtqdva7HYQZdOmyeh7VLXsWa_f/view",
+        "provider": "Atlassian",
+        "dateObtained": "May 2020",
+        "skills": "Jira Administration, Security Monitoring, Atlassian Suite"
+      },
+      {
+        "name": "Issue Security in Jira",
+        "imageUrl": "https://cdn.exceedlms.com/uploads/certifications/badges/28793/large/uni-completioncertificate-badge.png?1742872372&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZG4uZXhjZWVkbG1zLmNvbS91cGxvYWRzL2NlcnRpZmljYXRpb25zL2JhZGdlcy8yODc5My9sYXJnZS91bmktY29tcGxldGlvbmNlcnRpZmljYXRlLWJhZGdlLnBuZz8xNzQyODcyMzcyIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzY0NTE0OTc1fX19XX0_&Signature=QTBgpo06rarY0FNvBpdlKzlc8FO6MATD2dOYAOZhAO55UVT0kEg0mET8bDJcAfs0tIWWk4X0gT3x4G~N2umy3CwnHSRGj~veMAKLrksghdKGOfGR2JBfpkD8cghlc36hUoOoGM7WiLVehgJHWrLcKkURMS5ggQU1nDMvBtMx5o7ZicnadCOTGj3fbF-63U4iFsrOAddAT8C1UzRZMYXQcByzZFT4Nu6CQyg36mfhGzBqnSlFmJv1Ctt77qFf0C8rtGKa5CZ6NA0H4Uo1bqr1MgyqFNbVWpcL~uWxFuyvqSlEoTOB8ss8LkFTtnwn7Jom1WT1Mk4HwxWEuCoiEC7Xeg__&Key-Pair-Id=APKAJINUZDMKZJI5I6DA",
+        "link": "https://drive.google.com/file/d/188PCeoSljffU1mAOT8b3vVn6IWQF4e4O/view",
+        "provider": "Atlassian",
+        "dateObtained": "May 2020",
+        "skills": "Jira Administration, System Administration, Security Monitoring, Atlassian Suite"
+      },
+      {
+        "name": "Jira Automation",
+        "imageUrl": "https://cdn.exceedlms.com/uploads/certifications/badges/28793/large/uni-completioncertificate-badge.png?1742872372&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZG4uZXhjZWVkbG1zLmNvbS91cGxvYWRzL2NlcnRpZmljYXRpb25zL2JhZGdlcy8yODc5My9sYXJnZS91bmktY29tcGxldGlvbmNlcnRpZmljYXRlLWJhZGdlLnBuZz8xNzQyODcyMzcyIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzY0NTE0OTc1fX19XX0_&Signature=QTBgpo06rarY0FNvBpdlKzlc8FO6MATD2dOYAOZhAO55UVT0kEg0mET8bDJcAfs0tIWWk4X0gT3x4G~N2umy3CwnHSRGj~veMAKLrksghdKGOfGR2JBfpkD8cghlc36hUoOoGM7WiLVehgJHWrLcKkURMS5ggQU1nDMvBtMx5o7ZicnadCOTGj3fbF-63U4iFsrOAddAT8C1UzRZMYXQcByzZFT4Nu6CQyg36mfhGzBqnSlFmJv1Ctt77qFf0C8rtGKa5CZ6NA0H4Uo1bqr1MgyqFNbVWpcL~uWxFuyvqSlEoTOB8ss8LkFTtnwn7Jom1WT1Mk4HwxWEuCoiEC7Xeg__&Key-Pair-Id=APKAJINUZDMKZJI5I6DA",
+        "link": "https://drive.google.com/file/d/1eiZW6183C6VStIWyLBUa3mMNAohCmG-x/view",
+        "provider": "Atlassian",
+        "dateObtained": "May 2020",
+        "skills": "Jira Administration, Continuous Integration and Continuous Delivery (CI/CD), System Administration, Automation, Atlassian Suite, Scripting, Enterprise Integration"
+      },
+      {
+        "name": "Managing the User Lifecycle in Jira",
+        "imageUrl": "https://cdn.exceedlms.com/uploads/certifications/badges/28793/large/uni-completioncertificate-badge.png?1742872372&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZG4uZXhjZWVkbG1zLmNvbS91cGxvYWRzL2NlcnRpZmljYXRpb25zL2JhZGdlcy8yODc5My9sYXJnZS91bmktY29tcGxldGlvbmNlcnRpZmljYXRlLWJhZGdlLnBuZz8xNzQyODcyMzcyIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzY0NTE0OTc1fX19XX0_&Signature=QTBgpo06rarY0FNvBpdlKzlc8FO6MATD2dOYAOZhAO55UVT0kEg0mET8bDJcAfs0tIWWk4X0gT3x4G~N2umy3CwnHSRGj~veMAKLrksghdKGOfGR2JBfpkD8cghlc36hUoOoGM7WiLVehgJHWrLcKkURMS5ggQU1nDMvBtMx5o7ZicnadCOTGj3fbF-63U4iFsrOAddAT8C1UzRZMYXQcByzZFT4Nu6CQyg36mfhGzBqnSlFmJv1Ctt77qFf0C8rtGKa5CZ6NA0H4Uo1bqr1MgyqFNbVWpcL~uWxFuyvqSlEoTOB8ss8LkFTtnwn7Jom1WT1Mk4HwxWEuCoiEC7Xeg__&Key-Pair-Id=APKAJINUZDMKZJI5I6DA",
+        "link": "https://drive.google.com/file/d/10rF1_IcriPuNf-3suy3daQ_cq1wubZgD/view",
+        "provider": "Atlassian",
+        "dateObtained": "May 2020",
+        "skills": "Jira Administration, LDAP Administration, System Administration, Atlassian Suite, IAM"
+      }
+    ],
+    "Web Development & Design": [
+      {
+        "name": "Introduction to HTML, CSS, & JavaScript",
+        "imageUrl": "https://images.credly.com/size/680x680/images/09490195-093b-4c9f-9f31-bdc434e66a23/Coursera_20Introduction_20to_20HTML_20CSS_20and_20JavaScript.png",
+        "link": "https://www.credly.com/badges/9e172dda-c8ea-4656-98f5-b4af9dfd416d/public_url",
+        "provider": "IBM",
+        "dateObtained": "November 2025",
+        "skills": "Cascading Style Sheets (CSS), HTML5, Web Development, HTML, JavaScript, React (Web Framework), Web "
+      },
+      {
+        "name": "Front-end Development with React V2",
+        "imageUrl": "https://images.credly.com/size/680x680/images/e747147a-9300-4795-8b38-704a133bed88/Coursera_20Front_20end_20Development_20with_20React_20V2.png",
+        "link": "https://www.credly.com/badges/9c6123c7-5ed1-4002-a4a0-8333c1d9517f/public_url",
+        "provider": "IBM",
+        "dateObtained": "November 2025",
+        "skills": "Application States, Class Components, Component Composition, Component Lifecycles, Component States, CRA, Custom Hooks, Data Binding, Fetch, Forms, Front-end Development, Front-end Frameworks, Function Components, Hooks, JavaScript, JSX, Props, React, React ToolKit, Redux, saga, Side Effects, Thunk, UseEffect Hook, User Interfaces, UseState Hook, Virtual Dom, Vite"
+      }
+    ],
+    "Recognition & Awards": [
+      {
+        "name": "Best Hack Winner 1st place",
+        "imageUrl": "https://media.licdn.com/dms/image/sync/v2/D5627AQGpPv05h95E8g/articleshare-shrink_480/B56ZpJiH9FJkAw-/0/1762170274638?e=1765008000&v=beta&t=tBJYgLsYNijBSLNVRphc0Fsp3QaDNQ9-JO3nmHSp4Zk",
+        "link": "https://drive.google.com/file/d/1gk3SClD0epjExLAz0Lyr43NyJ4okl7ho/view?pli=1g",
+        "provider": "ServiceRocket",
+        "dateObtained": "August 2022",
+        "skills": "Teamwork, Problem Solving, Leadership, Software Development"
+      }
+    ]
+  }
 }

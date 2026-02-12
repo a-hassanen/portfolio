@@ -6,3 +6,9 @@
   background-color: var(--primary-color);
   border-top: 1px solid var(--border-color);
 }
+
+.proprietary {
+  font-size: 0.6rem;
+  color: var(--text-secondary-color);
+  margin-top: 0.5rem;
+}

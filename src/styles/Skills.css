@@ -12,3 +12,114 @@
   border-radius: 5px;
   font-weight: 500;
 }
+
+.skills-search {
+  position: relative; /* needed for clear button positioning */
+  margin-bottom: 20px;
+  max-width: 400px;
+}
+
+.skills-search input {
+  width: 100%;
+  padding: 10px 2.5rem 10px 10px; /* padding-right for clear button */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 20px;
+  font-weight: bold;
+  mix-blend-mode: difference;
+}
+
+.skills-search input::placeholder {
+  mix-blend-mode: difference;
+  opacity: 1;
+}
+
+.skills-category {
+  margin-bottom: 30px;
+}
+
+.skills-category ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.skills-category li {
+  background-color: var(--secondary-color);
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.skill-category:last-child {
+  margin-bottom: 0;
+}
+
+.skill-category h3 {
+  margin-bottom: 0.75rem;
+  color: var(--font-color);
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.skill-item {
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+}
+
+.skill-item:hover {
+  background-color: #5d95c4;
+}
+
+.skill-badges .badge {
+  background-color: #ff6b00;  /* accent color */
+  color: #fff;
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;        /* pill shape */
+  font-size: 0.85rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  display: inline-flex;
+  width: fit-content;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.skill-badges .badge:hover {
+  background-color: #ff924c;  /* lighter shade on hover */
+  transform: translateY(-2px);
+  box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+}
+
+[class^="skills-"].card {
+    position: relative;
+    z-index: auto;
+}
+
+.badge-count {
+  font-size: 0.85rem;
+  color: var(--font-color);
+  margin-left: 10px;
+}
+
+.skill-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 500;
+  width: 100%;              /* Ensures it stretches the full width of the card */
+  cursor: pointer;          /* Shows it is clickable */
+  padding: 10px;
+}
+
+.chevron {
+  /* margin-left: 8px; */
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  transition: transform 0.3s ease;
+}
+
+.chevron.expanded {
+  transform: rotate(180deg);
+}

@@ -1,2 +1,120 @@
-.social-links { margin-top: 1rem; }
-.social-links a { margin: 0 0.75rem; font-size: 1.1rem; }
+/* Grid container for all contact categories */
+.contact-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+/* Each category as a card */
+.contact-category {
+  flex: 1 1 250px; /* responsive width */
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.contact-category:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+}
+
+.contact-category h3 {
+  margin-bottom: 1rem;
+  color: #005850;
+  font-size: 1.1rem;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 0.3rem;
+}
+
+/* Individual contact buttons */
+.contact-button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 0.5rem;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.contact-button .icon {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+}
+
+/* Specific button colors */
+.contact-button.email { background-color: #0072c6; font-size: 0.9rem;}
+.contact-button.email:hover{ transform: translateY(-2px);
+    text-decoration: none;
+    color: #000000 } 
+.contact-button.github { background-color: #333; }
+.contact-button.linkedin { background-color: #0a66c2; }
+.contact-button.linkedin:hover{ transform: translateY(-2px);
+    text-decoration: none;
+    color: #000000 } 
+.contact-button.whatsapp { background-color: #25D366; color: #fff; }
+.contact-button.whatsapp.small:hover { transform: translateY(-2px); color: var(--accent-color); }
+.contact-button.phone { background-color: #4caf50; }
+.contact-button.credly { background-color: #0e76a8; }
+.contact-button.google-skills { background-color: #4285f4; }
+.contact-button.coursera { background-color: #2a73cc; }
+
+/* Large button for email */
+.contact-button.large {
+    width: 100%;
+    justify-content: center;
+    font-size: 1.1rem;
+}
+
+/* Small buttons for phone & WhatsApp pairs */
+.button-pair {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.contact-button.small {
+    flex: 1;
+    font-size: 0.7rem;
+    padding: 0.4rem 0.6rem;
+}
+/* Hover effect for buttons */
+.contact-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.contact-button.google-skills {
+background: linear-gradient(45deg, #4285F4, #EA4335, #FBBC05, #34A853);
+}
+
+.contact-button.coursera {
+background: linear-gradient(45deg, #0056D2,#FFFFFF, #000000);
+color: #000000;
+}
+
+.contact-button.coursera:hover {
+  color: var(--accent-hover);
+}
+
+.contact-button.credly{
+background: linear-gradient(45deg, #FF6A00, #333333);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .contact-grid {
+    flex-direction: column;
+  }
+
+  .contact-category {
+    width: 100%;
+  }
+}

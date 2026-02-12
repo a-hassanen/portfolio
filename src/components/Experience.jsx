@@ -1,5 +1,6 @@
 import React from 'react';
 import useIntersectionObserver from '../hooks/useIntersectionObserver.jsx';
+import '../styles/Experience.css';
 
 const Experience = ({ items }) => {
   const [ref, isVisible] = useIntersectionObserver({ threshold: 0.1 });
@@ -11,7 +12,7 @@ const Experience = ({ items }) => {
         <div key={index} className="card">
           <h3>{item.title} at {item.company}</h3>
           <p><strong>{item.period}</strong></p>
-          <p>{item.description}</p>
+          <p className="we-description">{item.description}</p>
         </div>
       ))}
     </section>

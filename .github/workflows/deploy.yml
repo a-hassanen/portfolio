@@ -15,29 +15,48 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout your repository
+      # Checkout the repo
+      - name: Checkout repository
         uses: actions/checkout@v4
-      - name: Set up Node.js
+
+      # Setup Node.js
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 20
+      # Cache dependencies
+      - name: Cache dependencies
+        uses: actions/cache@v4
+        id: npm-cache 
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
+      # Install dependencies
       - name: Install dependencies
         run: npm install
+
+      # Build the Vite project
       - name: Build project
         run: npm run build
+
+      # Configure GitHub Pages
       - name: Setup Pages
         uses: actions/configure-pages@v4
-      - name: Upload artifact
+
+      # Upload the built artifacts from dist/
+      - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './dist'
+          path: dist
 
   deploy:
     needs: build
     runs-on: ubuntu-latest
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
